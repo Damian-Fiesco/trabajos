@@ -132,31 +132,10 @@
 
         <div class="row">
             <div class="text-center col-12">
-                <button class="big-cupon-tienda-landing">
-                    <div class="col-5">
-                        <img src="images/ticket-blue.png" class="img-fluid big-cupon-img" alt="cupon-img">
-                    </div>
-                    <div class="float-end col-7">
-                        <p class="p1-big-cupon">
-                            Cupón valido por
-                        </p>
-                        <p class="p2-big-cupon">
-                            UNA BEBIDA GRATIS
-                        </p>
-                        <p class="p3-big-cupon">
-                            A partir de $25 usd de consumo.
-                        </p>
-                        <p class="big-cupon-link">
-                            Descargar
-                        </p>
-                    </div>
-                </button>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12">
-                <img src="images/Captura de Pantalla 2021-01-05 a la(s) 4.24.05 p. m 1.png" class="mapa-tienda-landing">
+                <p class="p-comida-landing-sin-cupon">
+                    Lamentablemente este cupón no está disponible en tu zona, pero no te desanimes, tenemos grandes descuentos cerca de ti,
+                    da clic para conocerlos.
+                </p>
             </div>
         </div>
 
