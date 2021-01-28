@@ -1,0 +1,1453 @@
+/* Header -Inicio- */
+.header-bar{
+    background: #DE2332;
+}
+.logo{
+    margin-top: 5px;
+    margin-left:18px;
+}
+.user{
+    margin-top:10px;
+    margin-left:118px;
+}
+.lupa{
+    height: 30px;
+    padding: 10px 5px;
+    background: #FFFFFF;
+    border-radius: 0.25rem 0 0 0.25rem;
+    
+    margin-top: -5px;
+    margin-left: 18px;
+}
+.form-control.busqueda{
+    color: #757373;
+    font-size: 10px;
+    font-family: Roboto;
+    padding: 3px 10px;
+    width: 100px;
+
+    margin-top: -5px;
+}
+.pin{
+    height: 30px;
+    padding: 10px 5px;
+    background: #FFFFFF;
+    border-radius: 0.25rem 0 0 0.25rem;
+
+    margin-left:-11px;
+    margin-top: -5px;
+    
+}
+.form-control.ubicacion{
+    color: #757373;
+    font-size: 10px;
+    font-family: Roboto;
+    padding: 3px 5px;
+    width:5px;
+
+    margin-right: 18px;
+    margin-top: -5px;
+}
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform:uppercase;
+    margin-top:17px;
+}
+.title-alt{
+    width: 223px;
+    height: 46px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom:5px;
+}
+/* Header -Final- */
+
+/* Home -Inicio- */
+.p-patrocinios{
+
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #4F4F4F;
+    margin-bottom:37px;
+    margin-top:48px;
+}
+.button-1{ 
+    text-transform:uppercase;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size:20px;
+    color: #FFFFFF;
+    width: 169px;
+    height: 42px;
+    background: #4CBD30;
+    border-radius: 8px;
+    border-color: transparent;
+}
+.button-2{
+    text-transform:uppercase;
+    font-family: Roboto;
+    font-size:20px;
+    color: #3054D4;
+    width: 169px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top:18px;
+    border-color: #3054D4;
+    border-width: 1px;
+}
+/* Home -Final-*/
+
+/*Formulario de registro -Inicio-*/
+.title2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+
+    line-height: 25px;
+    text-align: center;
+    color: #4F4F4F;
+    text-transform: uppercase;
+
+    margin-top: 29px;
+    margin-bottom: 3px;
+}
+.large{
+    width: 345px;
+    height: 40px;
+
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top:10px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    padding-left:15px;
+}
+.short{
+    width:220px;
+    height: 40px;
+
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top:10px;
+    margin-right: -25px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.shorter{
+    width:105px;
+    height: 40px;
+
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top:10px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.button-3{
+    text-transform:uppercase;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size:20px;
+    color: #FFFFFF;
+    width: 169px;
+    height: 42px;
+    background: #4CBD30;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-top:31px;
+}
+/* Formulario de registro -Final- */
+
+/* Confirmacion de registro -Inicio- */
+.muchas-gracias{
+    text-align:center;
+    width: 329px;
+    height: 190px; 
+    background: #FFFFFF;
+    border: 3px solid #DE2332;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 29px 18px 29px 18px;
+    margin-top: 38px;
+}
+.p-muchas-gracias1{
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #4F4F4F;
+    text-align: center;
+    font-weight: 700;
+}
+.p-muchas-gracias2{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 18px;
+    color: #4F4F4F;
+    text-align: center;
+    font-weight: 400;
+}
+.go_back{
+    width: 217px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #444444;
+
+    margin:0 auto;
+    margin-top: 41px;
+}
+/* Confirmacion de registro -Final- */
+
+/* Confirmación de registro 2 -Inicio- */
+.title3{
+    width: 322px;
+    height: 61px;
+    
+    font-family: Roboto;
+    font-style:normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+
+    margin: 0 auto;
+    margin-top:25px;
+    color: #444444;
+}
+.button-4{
+    margin: 0 auto;
+    margin-top: -5px;
+    width: 329px;
+    height: 70px;
+    border: 3px solid #359747;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #757373; 
+    background-color: #FFFFFF;
+}
+.button-5{
+    width: 329px;
+    height: 95px;
+    border: 3px solid #359747;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    margin-top: 26px;
+
+    background-color: #FFFFFF;
+}
+.p-button-5-1{
+    width: 292px;
+    height: 26px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #757373;
+    margin :0 auto;
+    margin-top: -10px;
+}
+.p-button-5-2{
+    width: 248px;
+    height: 26px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #757373;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.p-contactanos{
+    width: 229px;
+    height: 61px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #4F4F4F;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+.p-numero{
+    width: 292px;
+    height: 26px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #444444;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+/* Confirmación de registro 2 -Final- */
+
+/* r-Home.php -Inicio- */
+.button-6{
+    width: 353px;
+    height: 145px;
+    margin: 0 auto;
+    margin-top: 5px;
+    
+    background-color: #FFFFFF;
+    border-color: transparent;
+
+}
+.button-6-img{
+    width: 353px;
+    height: 145px;
+}
+.p-bienvenida{
+    width: 340px;
+    height: 66px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #4F4F4F;
+    margin: 0 auto;
+    margin-top:13px;
+}
+.button-7{
+    width: 255px;
+    height: 42px;
+
+    background-color: #FFFFFF;
+    border: 2px solid #DE2332;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #DE2332;
+    margin-top: 15px;
+}
+.p-que-estas-buscando{
+    width: 308px;
+    height: 34px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #0E3B5E;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.super{
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-left: 40px;
+    
+    background-color: #FFFFFF;
+    border-color: transparent;
+    width: 139px;
+    height: 118px;
+}
+.servicios{
+    margin: 0 auto;
+    margin-top: -10px;
+
+    background-color: #FFFFFF;
+    border-color: transparent;
+    width: 139px;
+    height: 118px;
+}
+.comida{
+    margin: 0 auto;
+    margin-top: -8px;
+    margin-left: 40px;
+    
+    background-color: #FFFFFF;
+    border-color: transparent;
+    width: 139px;
+    height: 118px;
+}
+.mensajeria{
+    margin: 0 auto;
+    margin-top: -8px;
+    
+    background-color: #FFFFFF;
+    border-color: transparent;
+    width: 139px;
+    height: 118px;
+}
+.patrocinadores{
+    margin: 0 auto;
+    margin-top: 5px;
+    
+    background-color: #FFFFFF;
+    border-color: transparent;
+    width: 327px;
+    height: 181px;
+}
+.footer{
+    margin: 0 auto;
+    margin-top:19px;
+}
+/* r-home.php -Final- */
+
+/* r-como_funciona.php -Inicio- */
+.logo-alt{
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-left: 33px;
+
+    width: 97px;
+    height: 59px;
+}
+.p-como-funciona{
+    width: 211px;
+    height: 28px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: #DE2332;
+    margin-left: -70px;
+    margin-top: 30px;
+}
+.juicy-lucy{
+    width: 100%;
+    height: 204px;
+}
+.button-8-9-10-11{
+    width: 175px;
+    height: 65px;
+
+    background: #DE2332;
+    border-radius: 5px;
+    border-color:transparent;
+}
+.button-8-img{
+    width: 32px;
+    height: 32px;
+    
+    margin: 16px 1px 11px -26px;
+}
+.button-9-img{
+    width: 25px;
+    height: 25px;
+    
+    margin: 18px 1px 11px -27px;
+}
+.button-10-img{
+    width: 30px;
+    height: 30px;
+
+    margin: 15px 1px 11px -27px;
+}
+.button-11-img{
+    width: 31px;
+    height: 31px;
+
+    margin: 10px 1px 11px -27px;
+}
+.p-button-8-9-10{
+    width: 110px;
+    height: 26px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: -50px;
+    margin-top: 17px;
+    padding-right: 10px;
+}
+.p-button-11{
+    width: 110px;
+    height: 26px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: -50px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.upper-two{
+    margin: 0 auto;
+    margin-top:40px;
+}
+.lower-two{
+    margin: 0 auto;
+    margin-top: 11px;
+}
+.p-proceso-cupon{
+    width: 329px;
+    height: 259px;
+    
+    padding-left: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #4F4F4F;
+    margin-top: 25px;
+}
+/* r-como_funciona.php -Final- */
+
+/* r-formulario_de_ingreso.php -Inicio- */
+.button-12{
+    text-transform:uppercase;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size:20px;
+    color: #FFFFFF;
+    width: 169px;
+    height: 42px;
+    background: #00BAF2;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-top:31px;
+}
+.button-13{
+    margin-top: 15px;
+    width: 230px;
+    height: 40px;
+    
+    background: #3B5998;
+    border-radius: 8px;
+    border-color: transparent;
+}
+.button-13-img{
+    margin: 4px 1px 20px -40px;
+}
+.p-button-13{
+    width: 161px;
+    height: 18px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    margin-left: -68px;
+    margin-top: 8px;
+    padding-right: 10px;
+}
+/* r-formulario de ingreso -Final- */
+
+/* r-confirmacion_de_ingreso.php -Inicio- */
+.gracias{
+    text-align:center;
+    width: 348px;
+    height: 359px;
+    background: #FFFFFF;
+    border: 3px solid #DE2332;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 29px 18px 29px 18px;
+    margin-top: 38px;
+}
+.p-gracias{
+    width: 277px;
+    height: 226px;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+.p-gracias1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #DE2332;
+}
+.p-gracias2{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height:23px;
+    text-align: center;
+
+    color: #4F4F4F;
+}
+.button-14{
+    margin: 0 auto;
+    margin-top:-10px;
+}
+.cerrar{
+    background-color:transparent;
+    border-color: transparent;
+}
+/* r-confirmacion_de_registro -Final- */
+
+/* r-comida.php -Inicio- */
+
+.header-comida{
+    width: 400px;
+    height: 45px;
+
+    background: #FF891D;
+    margin: 0 auto;
+    margin-left:-12px;
+}
+.header-comida-title{
+    width: 101px;
+    height: 22px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top:14px;
+
+    color: #FFFFFF;
+}
+.button-15{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top:20px;
+}
+.p-fast-food{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.button-16{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top: 20px;
+}
+.p-gourmet{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.button-17{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top:20px;
+}
+.p-tradicional{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.mapa{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.tienda-comida{
+    margin-top:10px;
+    border-bottom: 1px solid #C4C4C4;
+    height: 80px;
+}
+.tienda-comida-img{
+    max-width: 108px;
+    width: 108px;
+    height: 71px;
+}
+.nombre{
+    width: 79px;
+    height: 13px;
+    margin-left:20px;
+    margin-top:-5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+
+    color: #757373;
+}
+.categoria{
+    margin-top: -13px;
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: Roboto;
+
+    color: #757373;
+}
+.rating{
+    margin-top: -17px;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 7px;
+    
+    color: #757373;
+    margin-bottom: 5px;
+}
+.pagina{
+    width:40px;
+    height: 33px;
+    background-color: #DE2332;
+    border-color:transparent;
+    border-radius:2px;
+    margin-left:25px;
+}
+.pagina-button-img{    
+    width: 28px;
+    max-width: 40px;
+    height: 28px;
+    margin: 2px auto;
+}
+.video{
+    width:40px;
+    height: 33px;
+    background-color: #DE2332;
+    border-color:transparent;
+    border-radius:2px;
+    margin-left: 10px;
+}
+.video-button-img{
+    width: 23px;
+    height: 23px;
+    margin: 0 auto;
+}
+.mensaje{
+    width:40px;
+    height: 33px;
+    background-color: #DE2332;
+    border-color:transparent;
+    border-radius:2px;
+    margin-left: -5px;
+}
+.mensaje-button-img{
+    margin: 0 auto;
+}
+.telefono{
+    width:40px;
+    height: 33px;
+    background-color: #DE2332;
+    border-color:transparent;
+    border-radius:2px;
+    margin-left:-20px;
+}
+.telefono-button-img{
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top:-5px;
+}
+
+/* r-comida.php -Final- */
+
+/* r-super.php -Inicio- */
+
+.header-super{
+    width: 400px;
+    height: 45px;
+
+    background: #7B1BA8;
+    margin: 0 auto;
+    margin-left:-12px;
+}
+.header-super-title{
+    width: 101px;
+    height: 22px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top:14px;
+
+    color: #FFFFFF;
+}
+.button-18{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top:20px;
+}
+.p-farmacia{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.button-19{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top: 20px;
+}
+.p-market{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.button-20{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top:20px;
+}
+.p-corner-store{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.tienda-super{
+    margin-top:10px;
+    border-bottom: 1px solid #C4C4C4;
+    height: 80px;
+}
+.tienda-super-img{
+    max-width: 108px;
+    width: 108px;
+    height: 71px;
+}
+
+/* r-super.php -Final- */
+
+/* r-mensajeria.php -Inicio- */
+
+.header-mensajeria{
+    width: 400px;
+    height: 45px;
+
+    background: #FFCB21;
+    margin: 0 auto;
+    margin-left:-12px;
+}
+.header-mensajeria-title{
+    width: 101px;
+    height: 22px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top:14px;
+
+    color: #FFFFFF;
+}
+.button-21{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top:20px;
+}
+.p-local{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.button-22{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top: 20px;
+}
+.p-nacional{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.button-23{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top:20px;
+}
+.p-internacional{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.tienda-mensajeria{
+    margin-top:10px;
+    border-bottom: 1px solid #C4C4C4;
+    height: 80px;
+}
+.tienda-mensajeria-img{
+    max-width: 108px;
+    width: 108px;
+    height: 71px;
+}
+
+/* r-mensajeria.php -Final- */
+
+/* r-servicios.php -Inicio- */
+
+.header-servicios{
+    width: 400px;
+    height: 45px;
+
+    background: #00BAF2;
+    margin: 0 auto;
+    margin-left:-12px;
+}
+.header-servicios-title{
+    width: 101px;
+    height: 22px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top:14px;
+
+    color: #FFFFFF;
+}
+.button-24{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top:20px;
+}
+.p-legal{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.button-25{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top: 20px;
+}
+.p-hogar{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.button-26{
+    background-color: #FFFFFF;
+    border-color: transparent;
+    margin-top:20px;
+}
+.p-bienes-raices{
+    width: 84px;
+    height: 17px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 5px;
+
+    color: #757373;
+}
+.tienda-servicios{
+    margin-top:10px;
+    border-bottom: 1px solid #C4C4C4;
+    height: 80px;
+}
+.tienda-servicios-img{
+    max-width: 108px;
+    width: 108px;
+    height: 71px;
+}
+
+/* r-servicios.php -Final- */
+
+/* r-comida-level2.php -Inicio- */
+
+.comida-tradicional-title{
+    width: 211px;
+    height: 22px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top:14px;
+
+    color: #FF891D;
+}
+.comida-tradicional-tienda1{
+    width: 339px;
+    height: 269px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.28);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top:11px;
+}
+.comida-tradicional-tienda2{
+    width: 339px;
+    height: 321px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.28);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-bottom:10px;
+}
+.p1-comida-tradicional-tienda1{
+    width: 172px;
+    height: 39px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #444444;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.p2-comida-tradicional-tienda1{
+    width: 261px;
+    height: 45px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #444444;
+    margin: 0 auto;
+    margin-top: -15px;
+}
+.p1-comida-tradicional-tienda2{
+    width: 172px;
+    height: 39px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #444444;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.p2-comida-tradicional-tienda2{
+    width: 261px;
+    height: 45px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #444444;
+    margin: 0 auto;
+    margin-top: -15px;
+}
+.comida-tradicional-buttons{
+    margin-top:15px;
+    margin:-5px auto;
+    width: 240px;
+}
+.pagina-comida-tradicional{
+    width:40px;
+    height: 33px;
+    background-color: #DE2332;
+    border-color:transparent;
+    border-radius:2px;
+    margin-left:10px;
+}
+.pagina-comida-tradicional-img{
+    width: 28px;
+    max-width: 40px;
+    height: 28px;
+    margin: 2px auto;
+}
+.video-comida-tradicional{
+    width:40px;
+    height: 33px;
+    background-color: #DE2332;
+    border-color:transparent;
+    border-radius:2px;
+    margin-left: 1px;
+}
+.video-comida-tradicional-img{
+    width: 23px;
+    height: 23px;
+    margin: 0 auto;
+}
+.mensaje-comida-tradicional{
+    width:40px;
+    height: 33px;
+    background-color: #DE2332;
+    border-color:transparent;
+    border-radius:2px;
+    margin-left: -10px;
+}
+.mensaje-comida-tradicional-img{
+    margin: 0 auto;
+}
+.telefono-comida-tradicional{
+    width:40px;
+    height: 33px;
+    background-color: #DE2332;
+    border-color:transparent;
+    border-radius:2px;
+    margin-left:-25px;
+}
+.telefono-comida-tradicional-img{
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top:-5px;
+}
+.button-cupon-1-comida-tradicional-tienda1{
+    width: 298px;
+    height: 31px;
+
+    background: linear-gradient(82.06deg, #62A6F7 13.37%, #3054D5 67.57%);
+    border-radius: 8px;
+    border-color:transparent;
+    margin: 20px auto;
+}
+.p-cupon-1-comida-tradicional-tienda1{
+    width: 270px;
+    height: 23px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #FFFFFF;
+    margin:5px auto;
+}
+
+.button-cupon-1-comida-tradicional-tienda2{
+    width: 298px;
+    height: 31px;
+
+    background: linear-gradient(82.06deg, #62A6F7 13.37%, #3054D5 67.57%);
+    border-radius: 8px;
+    border-color:transparent;
+    margin: 20px auto;
+}
+.p-cupon-1-comida-tradicional-tienda2{
+    width: 270px;
+    height: 23px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #FFFFFF;
+    margin:5px auto;
+}
+.cupon-2-comida-tradicional-tienda2{
+    margin-top:-10px;
+}
+.button-cupon-2-comida-tradicional-tienda2{
+    width: 298px;
+    height: 31px;
+
+    background: linear-gradient(82.06deg, #8862F7 13.37%, #B430D5 67.57%);
+    border-radius: 8px;
+    border-color:transparent;
+    margin: 0 auto;
+    margin-bottom:100px;
+}
+.p-cupon-2-comida-tradicional-tienda2{
+    width: 270px;
+    height: 23px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #FFFFFF;
+    margin:5px auto;
+}
+
+/* r-comida-level2.php -Final- */
+
+/* r-comida-landing.php -Inicio- */
+
+.button-27-28-29-30{
+    width: 175px;
+    height: 65px;
+
+    background: #DE2332;
+    border-radius: 5px;
+    border-color:transparent;
+}
+.button-27-img{
+    width: 32px;
+    height: 32px;
+    
+    margin: 16px 1px 11px -26px;
+}
+.button-28-img{
+    width: 25px;
+    height: 25px;
+    
+    margin: 18px 1px 11px -27px;
+}
+.button-29-img{
+    width: 30px;
+    height: 30px;
+
+    margin: 15px 1px 11px -27px;
+}
+.button-30-img{
+    width: 22px;
+    height: 20px;
+
+    margin: 19px 1px 11px -27px;
+}
+.p-button-27-28-29{
+    width: 110px;
+    height: 26px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: -50px;
+    margin-top: 17px;
+    padding-right: 10px;
+}
+.p-button-30{
+    width: 110px;
+    height: 26px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 11px;
+
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: -50px;
+    margin-top: 25px;
+    padding-right: 15px;
+}
+.tienda-landing-banner{
+    width: 406px;
+    height: 204px;
+    background-image: url("images/");
+    background-color: black;
+}
+/* r-comida-landing.php -Final- */
+
+/* Footer -Inicio- */
+.foot-bar{ 
+    bottom:5px;
+    width:100%;
+}
+/* Footer -Final- */
+
+a{
+    color: #444444;
+    text-decoration: underline;
+}
+.form-control{
+    font-size:10pxpx;
+    font-family: Roboto;
+    color: #757373;
+    padding: 20px;
+}
