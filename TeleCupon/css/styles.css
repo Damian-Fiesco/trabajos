@@ -11,7 +11,7 @@
 
 .user {
     margin-top: 10px;
-    margin-left: 118px;
+    margin-right: 15px;
 }
 
 .lupa {
@@ -123,6 +123,57 @@
 
 
 /* Home -Final-*/
+
+
+/* User -Inicio- */
+
+.user-ui {
+    background: #757373;
+    height: 75px;
+}
+
+.user-ui-profile-pic {
+    width: 58px;
+    height: 63px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.p-user-ui-name {
+    width: 152px;
+    height: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.user-ui-location {
+    margin-top: -10px;
+}
+
+.user-pin-img {
+    width: 20px;
+    height: 20px;
+}
+
+.p-user-ui-location {
+    width: 143px;
+    height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+
+/* User -Final- */
 
 
 /*Formulario de registro -Inicio-*/
@@ -1542,15 +1593,16 @@
 .tienda-landing-buttons {
     margin: 0 auto;
     margin-top: 60px;
+    margin-bottom: 16px;
 }
 
-.big-cupon-tienda-landing {
+.big-cupon-blue {
     width: 340px;
     height: 90px;
     background: linear-gradient(82.06deg, #62A6F7 13.37%, #3054D5 67.57%);
     border-radius: 8px;
     border-color: transparent;
-    margin-top: 35px;
+    margin-top: 19px;
 }
 
 .big-cupon-img {
@@ -1660,15 +1712,18 @@
 /* r-comida-landing.php -Final- */
 
 
-/* r-cupon.php -Inicio- */
+/* cupon.php -Inicio- */
 
 .huge-cupon {
     background-image: url(../images/Cupon-background.png);
     height: 747px;
     margin: 0 auto;
+    width: 336px;
 }
 
 .huge-cupon-img {
+    width: 280px;
+    height: 105px;
     margin: 63px auto;
 }
 
@@ -1678,10 +1733,97 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: -71px;
+}
+
+.p2-huge-cupon {
+    width: 200px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
     font-size: 21px;
     line-height: 25px;
     /* identical to box height */
     color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.p3-huge-cupon {
+    width: 200px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.p4-huge-cupon {
+    width: 200px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.p5-huge-cupon {
+    width: 200px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.QR-code-huge-cupon {
+    margin: 0 auto;
+}
+
+.footer-huge-cupon {
+    margin: 0 auto;
+}
+
+.p6-huge-cupon {
+    width: 83px;
+    height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    margin: 6px 0 0 105px;
+}
+
+.p7-huge-cupon {
+    width: 261px;
+    height: 121px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px auto;
+    margin-bottom: -65px;
+    border-bottom: 3px solid #FFFFFF;
 }
 
 .huge-cupon-upper-half {
@@ -1692,12 +1834,13 @@
 
 .huge-cupon-lower-half {
     border-bottom: 2px solid #FFFFFF;
-    border-width: 295px;
+    width: 295px;
     margin: 0 auto;
 }
 
 .huge-cupon-buttons {
     margin-left: 30px;
+    margin-top: -15px;
 }
 
 .button-27-28-29-30-huge-cupon {
@@ -1763,7 +1906,230 @@
 }
 
 
-/* r-cupon-php -Final- */
+/* cupon-php -Final- */
+
+
+/* r-cupon.php -Inicio- */
+
+.r-huge-cupon {
+    background-image: url(../images/cupon-background2.png);
+    height: 747px;
+    margin: 0 auto;
+    width: 336px;
+}
+
+.r-huge-cupon-grey {
+    background: #444444;
+    height: 616px;
+    margin-top: -38px;
+    padding-top: 30px;
+}
+
+.p1-huge-cupon-grey {
+    width: 158px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: -29px;
+}
+
+.p2-huge-cupon-grey {
+    width: 200px;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 32px auto 0;
+}
+
+.r-huge-cupon-img {
+    width: 280px;
+    height: 105px;
+    margin: 32px auto;
+}
+
+.r-huge-cupon-upper-half {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    width: 295px;
+    margin: 0 auto;
+}
+
+.p7-huge-cupon-grey {
+    width: 261px;
+    height: 121px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px auto;
+    margin-bottom: -65px;
+}
+
+.huge-cupon-lower-half-grey {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+    width: 295px;
+    margin: 3px auto;
+}
+
+.Qr-code-huge-cupon-img-grey {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+/* r-cupon.php -Final- */
+
+
+/* r-confirmacion_de_registro2.php -Inicio- */
+
+.user-cupones {
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
+.big-cupon-orange {
+    width: 340px;
+    height: 90px;
+    background: linear-gradient(82.06deg, #F7BB62 13.37%, #D33F11 67.57%);
+    border-radius: 8px;
+    border-color: transparent;
+    margin-top: 19px;
+}
+
+.big-cupon-img {
+    width: 108.15px;
+    height: 108.15px;
+    margin-top: -15px;
+}
+
+.p1-big-cupon {
+    width: 90px;
+    height: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: -81px;
+    margin-left: -10px;
+}
+
+.p2-big-cupon {
+    width: 133px;
+    height: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: -16px;
+    margin-left: -10px;
+}
+
+.p3-big-cupon {
+    width: 174px;
+    height: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: -13px;
+    margin-left: -10px;
+}
+
+.big-cupon-link {
+    width: 174px;
+    height: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: -13px;
+    margin-left: -69px;
+    text-decoration: underline;
+}
+
+.p-not-selected {
+    margin-left: 11px;
+    width: 250px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 9px;
+}
+
+.p-selected {
+    margin-left: 11px;
+    width: 250px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: #DE2332;
+    margin-bottom: 0px;
+    margin-top: 9px;
+}
+
+
+/* r-confirmacion_de_registro2.php -Final- */
+
+
+/* r-confirmacion_de_registro3.php -Inicio- */
+
+.big-cupon-grey {
+    width: 340px;
+    height: 90px;
+    background: #C4C4C4;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-top: 19px;
+}
+
+.big-cupon-img-grey {
+    margin-top: 5px;
+}
+
+.p1-big-cupon-grey {
+    width: 90px;
+    height: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: -65px;
+    margin-left: -10px;
+}
+
+
+/* r-confirmacion_de_registro3.php -Final- */
+
+
+/* confirmacion_de_registro3.php -Inicio- */
+
+
+/* confirmacion_de_registro3.php -Final- */
 
 
 /* Footer -Inicio- */

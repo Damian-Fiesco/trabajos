@@ -51,7 +51,7 @@
 
                         <div class="row upper-two">
                             <div class="col-6">
-                                <button type="button" class="float-end text-center button-27-28-29-30-huge-cupon">
+                                <button type="button" class="float-end text-center button-27-28-29-30-huge-cupon" style="margin-right:-15px;">
                                     <div clasS="row">
                                         <div class="col-6">
                                             <img src="images/Pagina-button.png" alt="Da click para ir a la página web del negocio." class="img-fluid button-27-img-huge-cupon">
@@ -68,7 +68,7 @@
                             <!-- Segundo botón (Video del negocio) -->
 
                             <div class="col-6">
-                                <button type="button" class="text-center button-27-28-29-30-huge-cupon">
+                                <button type="button" class="text-center button-27-28-29-30-huge-cupon" style="margin-left:-15px;">
                                     <div class="row">
                                         <div class="col-6">
                                             <img src="images/Video-button.png" alt="Da click para ver el video del negocio" class="img-fluid button-28-img-huge-cupon">
@@ -87,7 +87,7 @@
 
                         <div class="row lower-two">
                             <div class="col-6">
-                                <button type="button" class="float-end text-center button-27-28-29-30-huge-cupon">
+                                <button type="button" class="float-end text-center button-27-28-29-30-huge-cupon" style="margin-right: -15px;">
                                     <div clasS="row ">
                                         <div class="col-6">
                                             <img src="images/Mensajes-button.png" alt="Envia el código para recibir tu cupón." class="img-fluid button-29-img-huge-cupon">
@@ -104,7 +104,7 @@
                             <!-- Cuarto botón (Escanear negocio) -->
 
                             <div class="col-6">
-                                <button type="button" class="text-center button-27-28-29-30-huge-cupon">
+                                <button type="button" class="text-center button-27-28-29-30-huge-cupon" style="margin-right:-15px;">
                                     <div clasS="row">
                                         <div class="col-6">
                                             <img src="images/Telefono-button.png" alt="Al escanear con tu móvil automáticamente se descargará tu cupón." class="img-fluid button-30-img-huge-cupon">
@@ -125,12 +125,16 @@
                         </div>
                     </div>
                     <div class="row">
-                        <p class="p6-huge-cupon">
-                            Condiciones
-                        </p>
-                        <p class="p7-huge-cupon">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                        </p>
+                        <div class="col-12">
+                            <div class="footer-huge-cupon">
+                                <p class="p6-huge-cupon">
+                                    Condiciones
+                                </p>
+                                <p class="p7-huge-cupon">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -132,7 +132,7 @@
 
         <div class="row">
             <div class="text-center col-12">
-                <button class="big-cupon-tienda-landing">
+                <button class="big-cupon-blue">
                     <div class="col-5">
                         <img src="images/ticket-blue.png" class="img-fluid big-cupon-img" alt="cupon-img">
                     </div>
