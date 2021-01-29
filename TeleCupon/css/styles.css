@@ -10,8 +10,27 @@
 }
 
 .user {
-    margin-top: 10px;
-    margin-right: 15px;
+    margin-top: 15px;
+    margin-right: 45px;
+    background: transparent;
+    border: transparent;
+}
+
+.user-img {
+    width: 32px;
+    height: 34px;
+}
+
+.menu {
+    margin-right: -80px;
+    background: transparent;
+    border: transparent;
+    margin-top: 20px;
+}
+
+.menu-img {
+    width: 26px;
+    height: 19.47px;
 }
 
 .lupa {
@@ -2127,6 +2146,62 @@
 
 
 /* confirmacion_de_registro3.php -Inicio- */
+
+.pago-exitoso-img {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 152px;
+    height: 154px;
+}
+
+.p1-pago-exitoso {
+    width: 170px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #359747;
+    margin: 0 auto;
+}
+
+.p2-pago-exitoso {
+    width: 292px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #444444;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+.p3-pago-exitoso {
+    width: 308px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #444444;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.p4-pago-exitoso {
+    width: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #444444;
+    margin: 0 auto;
+    margin-top: 15px;
+}
 
 
 /* confirmacion_de_registro3.php -Final- */

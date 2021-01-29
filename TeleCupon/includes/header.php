@@ -7,7 +7,12 @@
                 <img src="images/svg-logo 1.png" alt="logo" class="img-fluid logo">
             </div>
             <div class="col-6">
-                <img src="images/user 1.png" alt="User" class="img-fluid float-end user">
+                <button type="button" class="float-end user">
+                    <img src="images/user 1.png" alt="User" class="img-fluid user-img">
+                </button>
+                <button type="button" class="float-end menu">
+                    <img src="images/menu-img.png" alt="menu" class="img-fluid menu-img">
+                </button>
             </div>
 
         </div>
@@ -45,9 +50,9 @@
 
         }
         ?>
-        
-       
 
-        
+
+
+
     </div>
 </div>
