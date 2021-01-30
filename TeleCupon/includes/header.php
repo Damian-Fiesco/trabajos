@@ -17,22 +17,24 @@
 
         </div>
 
-        <div class="row">
-            <div class="col-7">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text lupa" id="basic-addon1"><img src="images/lupa 2.png" class="img-fluid"></span>
+        <div class="text-fields">
+            <div class="row">
+                <div class="col-7">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text lupa" id="basic-addon1"><img src="images/lupa 2.png" class="img-fluid lupa-img"></span>
+                        </div>
+                        <input type="text" class="form-control busqueda" placeholder="¿Qué esta buscando?" aria-label="busqueda" aria-describedby="basic-addon1">
                     </div>
-                    <input type="text" class="form-control busqueda" placeholder="¿Qué esta buscando?" aria-label="busqueda" aria-describedby="basic-addon1">
                 </div>
-            </div>
 
-            <div class="col-5">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text pin" id="basic-addon1"><img src="images/Layer 1.png" class="img-fluid"></span>
+                <div class="col-5">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text pin" id="basic-addon1"><img src="images/Layer 1.png" class="img-fluid pin-img"></span>
+                        </div>
+                        <input type="text" class="form-control ubicacion" placeholder="Ubicación" aria-label="ubicacion" aria-describedby="basic-addon1">
                     </div>
-                    <input type="text" class="form-control ubicacion" placeholder="Ubicación" aria-label="ubicacion" aria-describedby="basic-addon1">
                 </div>
             </div>
         </div>

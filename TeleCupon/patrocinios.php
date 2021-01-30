@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-<?php
-include_once('includes/head.php');
-?>
-<title>Home</title>
+    <?php
+    include_once('includes/head.php');
+    ?>
+    <title>Home</title>
 </head>
 
 <body>
-   
-<?php
-$title="Patrocinios";
-include_once('includes/header.php');
+
+    <?php
+    $title = "Patrocinios";
+    include_once('includes/header.php');
 
 
-?>
+    ?>
 
     <div class="container">
         <div class="row">
@@ -38,24 +38,26 @@ include_once('includes/header.php');
             </div>
         </div>
 
-
-        <div clas="row">
-            <div class="col-12 text-center">
-                <button type="button" class="button-2">
-                    Inscribirme
-                </button>
+        <div class="home-button-2">
+            <div clas="row">
+                <div class="col-12 text-center">
+                    <button type="button" class="button-2">
+                        Inscribirme
+                    </button>
+                </div>
             </div>
         </div>
 
 
 
-    </div>
-    
 
-    
-<?php
-include_once('includes/footer.php');
-?>
+    </div>
+
+
+
+    <?php
+    include_once('includes/footer.php');
+    ?>
 
 </body>
 
