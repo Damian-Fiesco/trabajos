@@ -17,10 +17,36 @@
     <!-- Start-->
     <div class="container">
         <div class="row">
-            <div class="text-center col-12">
-                <button type="button" class="button-6">
-                    <img src="images/Group 13.png" alt="logo-color" class="button-6-img">
+            <div class="col-3">
+                <button type="button" class="float-start scroll-arrows-left-button">
                 </button>
+            </div>
+            <div class="text-center col-6">
+                <button type="button" class="button-6">
+                </button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="float-end scroll-arrows-right-button">
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="text-center col-12">
+                <div class="scroll-buttons">
+                    <button type="button" class="scroll-button-selected">
+                        .
+                    </button>
+                    <button type="button" class="scroll-button-not-selected">
+                        .
+                    </button>
+                    <button type="button" class="scroll-button-not-selected">
+                        .
+                    </button>
+                    <button type="button" class="scroll-button-not-selected">
+                        .
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -52,28 +78,40 @@
         </div>
 
         <div class="row">
-            <div class="col-6">
-                <button type="button" class="float-end text-center super">
-                    <img src="images/Group8.png" alt="super" class="img-fluid">
-                </button>
+            <div class="col-6 col-md-3">
+                <a href="trabajos.test/Telecupon/r-super.php" class="category">
+                    <div class=" text-center super" style="background:#7B1BA8;">
+                        <img src="images/Super.png" alt="super" class="img-fluid super-button-img">
+                        <span> Super </span>
+                    </div>
+                </a>
             </div>
-            <div class="col-6">
-                <button type="button" class="servicios">
-                    <img src="images/Group 9.png" alt="servicios" class="img-fluid">
-                </button>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-6">
-                <button type="button" class="float-end text-center comida">
-                    <img src="images/Group 10.png" alt="comida" class="img-fluid">
-                </button>
+            <div class="col-6 col-md-3">
+                <a href="trabajos.test/TeleCupon/r-servicios.php" class="category">
+                    <div class="text-center super" style="background:#FFCB21;">
+                        <img src="images/Servicios.png" alt="servicios" class="img-fluid servicios-button-img">
+                        <span> Servicios </span>
+                    </div>
+                </a>
             </div>
-            <div class="col-6">
-                <button type="button" class="mensajeria">
-                    <img src="images/Group 11.png" alt="mensajeria" class="img-fluid">
-                </button>
+
+            <div class="col-6 col-md-3">
+                <a href="trabajos.test/Telecupon/r-comida.php" class="category">
+                    <div class=" text-center super" style="background:#FF891D;">
+                        <img src="images/Comida.png" alt="comida" class="img-fluid comida-button-img">
+                        <span> Comida </span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <a href="trabajos.test/TeleCupon/r-mensajeria.php" class="category">
+                    <div class="text-center super" style="background:#00BAF2;">
+                        <img src="images/Mensajeria.png" alt="mensajeria" class="img-fluid mensajeria-button-img">
+                        <span> Mensajeria </span>
+                    </div>
+                </a>
             </div>
         </div>
 

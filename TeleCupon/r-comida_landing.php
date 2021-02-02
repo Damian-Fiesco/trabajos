@@ -25,9 +25,9 @@
         </div>
 
         <div class="row">
-            <div class="tienda-landing-banner">
-                <div class="float-end row">
-                    <div class="redes">
+            <div class="tienda-landing-banner position-relative">
+                <div class="  row">
+                    <div class="redes position-absolute">
                         <div class="col-6">
                             <button type="button" class="float-start facebook">
                                 <img src="images/facebook_internet_media_network_social_icon_123257 3.png" class="img-fluid facebook-img">
