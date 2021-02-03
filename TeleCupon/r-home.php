@@ -22,7 +22,19 @@
                 </button>
             </div>
             <div class="text-center col-6">
-                <button type="button" class="button-6">
+                <button type="button" class="text-center button-6">
+                    <div class="float-start col-12 col-md-6 button-6-img">
+                    </div>
+                    <div class=" float-end col-12 col-md-6">
+                        <div class="button-6-text">
+                            <p class="p1-button-6">
+                                15%
+                            </p>
+                            <p class="p2-button-6">
+                                <b>DE DESCUENTO</b> EN CENAS<br>DE AÑO NUEVO
+                            </p>
+                        </div>
+                    </div>
                 </button>
             </div>
             <div class="col-3">
@@ -77,56 +89,74 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-6 col-md-3">
-                <a href="trabajos.test/Telecupon/r-super.php" class="category">
-                    <div class=" text-center super" style="background:#7B1BA8;">
-                        <img src="images/Super.png" alt="super" class="img-fluid super-button-img">
-                        <span> Super </span>
-                    </div>
-                </a>
-            </div>
+        <div class="r-home-buttons">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <a href="trabajos.test/Telecupon/r-super.php" class="category">
+                        <div class=" text-center super" style="background:#7B1BA8;">
+                            <img src="images/Super.png" alt="super" class="img-fluid super-button-img">
+                            <span> Super </span>
+                        </div>
+                    </a>
+                </div>
 
-            <div class="col-6 col-md-3">
-                <a href="trabajos.test/TeleCupon/r-servicios.php" class="category">
-                    <div class="text-center super" style="background:#FFCB21;">
-                        <img src="images/Servicios.png" alt="servicios" class="img-fluid servicios-button-img">
-                        <span> Servicios </span>
-                    </div>
-                </a>
-            </div>
+                <div class="col-6 col-md-3">
+                    <a href="trabajos.test/TeleCupon/r-servicios.php" class="category">
+                        <div class="text-center super" style="background:#FFCB21;">
+                            <img src="images/Servicios.png" alt="servicios" class="img-fluid servicios-button-img">
+                            <span> Servicios </span>
+                        </div>
+                    </a>
+                </div>
 
-            <div class="col-6 col-md-3">
-                <a href="trabajos.test/Telecupon/r-comida.php" class="category">
-                    <div class=" text-center super" style="background:#FF891D;">
-                        <img src="images/Comida.png" alt="comida" class="img-fluid comida-button-img">
-                        <span> Comida </span>
-                    </div>
-                </a>
-            </div>
+                <div class="col-6 col-md-3">
+                    <a href="trabajos.test/Telecupon/r-comida.php" class="category">
+                        <div class=" text-center super" style="background:#FF891D;">
+                            <img src="images/Comida.png" alt="comida" class="img-fluid comida-button-img">
+                            <span> Comida </span>
+                        </div>
+                    </a>
+                </div>
 
-            <div class="col-6 col-md-3">
-                <a href="trabajos.test/TeleCupon/r-mensajeria.php" class="category">
-                    <div class="text-center super" style="background:#00BAF2;">
-                        <img src="images/Mensajeria.png" alt="mensajeria" class="img-fluid mensajeria-button-img">
-                        <span> Mensajeria </span>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="text-center col-12">
-                <button type="button" class="patrocinadores">
-                    <img src="images/Group 12.png" alt="patrocinadores" class="img-fluid">
-                </button>
+                <div class="col-6 col-md-3">
+                    <a href="trabajos.test/TeleCupon/r-mensajeria.php" class="category">
+                        <div class="text-center super" style="background:#00BAF2;">
+                            <img src="images/Mensajeria.png" alt="mensajeria" class="img-fluid mensajeria-button-img">
+                            <span> Mensajeria </span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
         <div class="row">
+            <button type="button" class="text-center patrocinadores">
+                <div class="float-start col-12 col-md-6 patrocinadores-img">
+                </div>
+                <div class=" float-end col-12 col-md-6">
+                    <div class="patrocinadores-text">
+                        <p class="p1-patrocinadores">
+                            ¿Quieres ser parte de<br>nuestros patrocinadores?
+                        </p>
+                        <p class="p2-patrocinadores">
+                            Haz click aqui
+                        </p>
+                    </div>
+                </div>
+            </button>
+        </div>
+
+        <div class="row">
             <div class="text-center col-12">
-                <div class="footer">
-                    <img src="images/Group 14.png" alt="footer" class="img-fluid">
+                <div class="text-center footer">
+                    <div class="float-start col-12 col-md-6 ">
+                        <img src="images/tele-logo-cupon2.png" class="img-fluid footer-img">
+                    </div>
+                    <div class="float-end col-12 col-md-6">
+                        <p class="p-footer">
+                            ¡TE DA GRANDES PROMOCIONES!
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -11,6 +11,7 @@
 <body>
 
     <?php
+    $title = "El sitio que te da los mejores descuentos";
     include_once('includes/header.php');
     ?>
     <!-- Start-->
@@ -43,47 +44,55 @@
 
             <div class="row">
                 <div class="col-12">
-                    <input type="password" placeholder="Confirmación de contraseña*" class="large">
+                    <input type="password" placeholder="Confirmación de contraseña" class="large">
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-7">
-                    <input type="text" placeholder="Calle" class="float-end short">
+                <div class="col-6">
+                    <input type="text" placeholder="Ciudad" class="short">
                 </div>
 
-                <div class="col-5">
-                    <input type="text" placeholder="No. de casa" class="float-start shorter">
+                <div class="col-6">
+                    <input type="text" placeholder="Zip Code" class="shorter">
+                </div>
+            </div>
+
+            <div class="half1">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" placeholder="Nombre del negocio" class="nombre-negocio">
+                    </div>
+                </div>
+            </div>
+
+            <div class="half2">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" placeholder="Giro" class="giro">
+                    </div>
+                </div>
+            </div>
+
+            <div class="half1">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" placeholder="Teléfono*" class="telefono-form-registro">
+                    </div>
+                </div>
+            </div>
+
+            <div class="half2">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" placeholder="Página web" class="pagina-web-form-registro">
+                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-12">
-                    <input type="text" placeholder="Cuidad*" class="large">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <input type="text" placeholder="Estado*" class="large">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <input type="text" placeholder="Teléfono*" class="large">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <input type="text" placeholder="ZIP Code" class="large">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <button type="button" class="text-center button-12">
+                    <button type="button" class="button-12">
                         Enviar
                     </button>
                 </div>
