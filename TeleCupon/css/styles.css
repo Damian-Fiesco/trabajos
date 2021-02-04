@@ -216,6 +216,45 @@
     margin-bottom: 3px;
 }
 
+.blue-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #00BAF2;
+    text-transform: uppercase;
+    margin-top: 29px;
+    margin-bottom: 3px;
+}
+
+.title2-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #4F4F4F;
+    text-transform: uppercase;
+    margin-top: 29px;
+    margin-bottom: 3px;
+}
+
+.blue-text2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #00BAF2;
+    text-transform: uppercase;
+    margin-top: 29px;
+    margin-bottom: 3px;
+}
+
 .large {
     width: 345px;
     height: 40px;
@@ -794,6 +833,20 @@
     margin-top: 31px;
 }
 
+.button-12-ingresar {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 169px;
+    height: 42px;
+    background: #00BAF2;
+    border-radius: 8px;
+    border-color: transparent;
+    margin-top: 25px;
+}
+
 .button-13 {
     margin-top: 15px;
     width: 230px;
@@ -819,6 +872,20 @@
     margin-left: -68px;
     margin-top: 8px;
     padding-right: 10px;
+}
+
+.olvidaste_tu_contraseña {
+    margin: 0 auto;
+}
+
+.p-olvidaste_tu_contraseña {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #0B8AD1;
 }
 
 
@@ -905,8 +972,12 @@
 
 .button-15 {
     background-color: #FFFFFF;
-    border-color: transparent;
+    background-image: url(../images/FastFood.png);
+    border-color: #ffff;
+    border-width: 0px;
     margin-top: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 .p-fast-food {
@@ -919,14 +990,18 @@
     line-height: 15px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 104px;
     color: #757373;
 }
 
 .button-16 {
     background-color: #FFFFFF;
-    border-color: transparent;
+    background-image: url(../images/Gourmet.png);
+    border-color: #ffff;
+    border-width: 0px;
     margin-top: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 .p-gourmet {
@@ -939,14 +1014,18 @@
     line-height: 15px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 104px;
     color: #757373;
 }
 
 .button-17 {
     background-color: #FFFFFF;
-    border-color: transparent;
+    background-image: url(../images/Tradicional.png);
+    border-color: #ffff;
+    border-width: 0px;
     margin-top: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 .p-tradicional {
@@ -959,13 +1038,42 @@
     line-height: 15px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 104px;
     color: #757373;
 }
 
-.mapa {
+.mapa-banner {
+    width: 374px;
+    height: 197px;
+    margin: 0 1px 0 -6px;
     margin-top: 20px;
     margin-bottom: 10px;
+    background-image: url(../images/Map-small.png);
+    padding-top: 15px;
+}
+
+.ofertas-cerca-de-ti {
+    background-color: #F44336;
+    width: 152px;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 18px;
+}
+
+.ofertas-cerca-de-ti-img {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    margin-right: 6px;
+}
+
+.p-ofertas-cerca-de-ti {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
 }
 
 .tienda-comida {
@@ -4483,7 +4591,15 @@ a {
         background-color: #FFFFFF;
         border-radius: 20px;
         width: 1080px;
-        height: 670px;
+        height: 700px;
+        margin: 0 auto;
+        margin-top: 54px;
+    }
+    .form-ingreso {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        width: 1080px;
+        height: 450px;
         margin: 0 auto;
         margin-top: 54px;
     }
@@ -5121,6 +5237,44 @@ a {
     }
     /* r-como_funciona.php -Final- */
     /* r-formulario_de_ingreso.php -Inicio- */
+    .title2-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-left: -680px;
+    }
+    .blue-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #00BAF2;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-left: 120px;
+    }
+    .blue-text2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #00BAF2;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+    }
     .button-12 {
         text-transform: uppercase;
         font-family: Roboto;
@@ -5133,6 +5287,22 @@ a {
         border-radius: 8px;
         border-color: transparent;
         margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+        float: left!important;
+    }
+    .button-12-ingresar {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 45%;
+        height: 60px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 25px;
         margin-left: 50px;
         margin-bottom: 100px;
         float: left!important;
@@ -5152,16 +5322,30 @@ a {
         margin-bottom: 100px;
         float: right!important;
     }
+    .olvidaste_tu_contraseña {
+        margin-top: -75px;
+        margin-left: 50px;
+    }
+    .p-olvidaste_tu_contraseña {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 27px;
+        text-decoration-line: underline;
+        color: #0B8AD1;
+    }
     .button-13-img {
-        margin: 15px 1px 20px 79px;
+        margin: 13px 1px 20px 79px;
+        width: 32px;
     }
     .p-button-13 {
-        width: 161px;
+        width: 199px;
         height: 18px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 20px;
         line-height: 19px;
         color: #FFFFFF;
         margin-left: -68px;
@@ -5171,9 +5355,8 @@ a {
     /* r-formulario de ingreso -Final- */
     /* r-confirmacion_de_ingreso.php -Inicio- */
     .gracias {
-        text-align: center;
-        width: 348px;
-        height: 359px;
+        width: 100%;
+        height: 91%;
         background: #FFFFFF;
         border: 3px solid #DE2332;
         box-sizing: border-box;
@@ -5181,27 +5364,29 @@ a {
         margin: 0 auto;
         padding: 29px 18px 29px 18px;
         margin-top: 38px;
+        margin-bottom: 54px;
     }
     .p-gracias {
-        width: 277px;
+        width: 76%;
         height: 226px;
         margin: 0 auto;
-        margin-top: 42px;
+        margin-top: 82px;
     }
     .p-gracias1 {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 26px;
-        line-height: 30px;
+        font-size: 41px;
+        line-height: 48px;
         text-align: center;
         color: #DE2332;
     }
     .p-gracias2 {
         font-family: Roboto;
+        font-weight: 300;
         font-style: normal;
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 34px;
+        line-height: 39px;
         text-align: center;
         color: #4F4F4F;
     }
@@ -5212,9 +5397,93 @@ a {
     .cerrar {
         background-color: transparent;
         border-color: transparent;
+        width: 105px;
+        height: 90px;
+    }
+    .cerrar-img {
+        width: 100px;
     }
     /* r-confirmacion_de_registro -Final- */
     /* r-comida.php -Inicio- */
+    .que-estas-buscando-header-comida {
+        background-color: #FF891D;
+        width: 1349px;
+        height: 135px;
+        margin: 0 auto;
+        margin-left: -117px;
+        margin-bottom: 10px;
+    }
+    .p-que-estas-buscando-header-comida {
+        width: 446px;
+        height: 34px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #ffffff;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .que-estas-buscando-header-comida-table {
+        padding: 0 200px 0 200px;
+        border-collapse: collapse;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .first-white {
+        border-right: 2px solid #FFFFFF;
+        font-weight: 500;
+    }
+    .first-white-selected {
+        border-right: 2px solid #FFFFFF;
+        font-weight: 900;
+    }
+    .second-white {
+        border-left: 2px solid #FFFFFF;
+        border-right: 2px solid #FFFFFF;
+        font-weight: 500;
+    }
+    .second-white-selected {
+        border-left: 2px solid #FFFFFF;
+        border-right: 2px solid #FFFFFF;
+        font-weight: 900;
+    }
+    .third-white {
+        border-left: 2px solid #FFFFFF;
+        border-right: 2px solid #FFFFFF;
+        font-weight: 500;
+    }
+    .third-white-selected {
+        border-left: 2px solid #FFFFFF;
+        border-right: 2px solid #FFFFFF;
+        font-weight: 900;
+    }
+    .last-white {
+        border-left: 2px solid #FFFFFF;
+        font-weight: 500;
+    }
+    .last-white-selected {
+        border-left: 2px solid #FFFFFF;
+        font-weight: 900;
+    }
+    .half1-comida {
+        float: left!important;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .half2-comida {
+        float: right!important;
+        width: 50%;
+        margin-bottom: 30px;
+    }
     .header-comida {
         width: 400px;
         height: 45px;
@@ -5236,97 +5505,153 @@ a {
     }
     .button-15 {
         background-color: #FFFFFF;
-        border-color: transparent;
+        background-image: url(../images/FastFood-Large.png);
+        border-color: #ffff;
+        border-width: 0px;
         margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        border-radius: 10px;
     }
     .p-fast-food {
         width: 84px;
         height: 17px;
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 15px;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 30px;
         text-align: center;
         margin: 0 auto;
-        margin-top: 5px;
-        color: #757373;
+        margin-top: 104px;
+        color: #444444;
     }
     .button-16 {
         background-color: #FFFFFF;
-        border-color: transparent;
+        background-image: url(../images/Gourmet-Large.png);
+        border-color: #ffff;
+        border-width: 0px;
         margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        border-radius: 10px;
     }
     .p-gourmet {
         width: 84px;
         height: 17px;
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 15px;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 30px;
         text-align: center;
         margin: 0 auto;
-        margin-top: 5px;
-        color: #757373;
+        margin-top: 104px;
+        color: #444444;
     }
     .button-17 {
         background-color: #FFFFFF;
-        border-color: transparent;
+        background-image: url(../images/Tradicional-Large.png);
+        border-color: #ffff;
+        border-width: 0px;
         margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        border-radius: 10px;
     }
     .p-tradicional {
         width: 84px;
         height: 17px;
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 15px;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 30px;
         text-align: center;
         margin: 0 auto;
-        margin-top: 5px;
-        color: #757373;
+        margin-top: 104px;
+        color: #444444;
     }
-    .mapa {
-        margin-top: 20px;
-        margin-bottom: 10px;
+    .mapa-banner {
+        width: 112%;
+        height: 253px;
+        margin: 0px 1px 0 -70px;
+        margin-top: 40px;
+        margin-bottom: 65px;
+        background-image: url(../images/Map-large.png);
+        padding-top: 0px;
+    }
+    .ofertas-cerca-de-ti {
+        background-color: #F44336;
+        width: 288px;
+        height: 59px;
+        border-radius: 3px;
+        margin-left: 0px;
+    }
+    .ofertas-cerca-de-ti-img {
+        width: 47px;
+        height: 47px;
+        margin-left: 8px;
+        margin-bottom: 4px;
+        margin-right: 6px;
+        margin-top: -1px;
+    }
+    .p-ofertas-cerca-de-ti {
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 15px;
+        color: #FFFFFF;
+        padding-top: 5px;
     }
     .tienda-comida {
         margin-top: 10px;
         border-bottom: 1px solid #C4C4C4;
-        height: 80px;
+        height: 133px;
+        width: 200%;
+    }
+    .tiendas-comida {
+        margin-bottom: 50px;
     }
     .tienda-comida-img {
-        max-width: 108px;
-        width: 108px;
-        height: 71px;
+        max-width: 179px;
+        width: 179px;
+        height: 118px;
     }
     .nombre {
-        width: 79px;
+        width: 155px;
         height: 13px;
         margin-left: 20px;
-        margin-top: -5px;
+        margin-top: -11px;
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 24px;
         color: #757373;
     }
     .categoria {
-        margin-top: -13px;
+        margin-top: -2px;
         margin-left: 20px;
-        font-size: 10px;
+        font-size: 20px;
         font-family: Roboto;
         color: #757373;
     }
     .rating {
-        margin-top: -17px;
+        margin-top: -20px;
         margin-left: 20px;
         font-family: Roboto;
-        font-size: 7px;
+        font-size: 10px;
         color: #757373;
         margin-bottom: 5px;
+    }
+    .r-comida-buttons {
+        padding: 0px 133px;
+        float: left;
+        margin-left: -131px;
+        margin-top: 10px;
+        width: 154%;
+    }
+    .tienda-comida-details {
+        margin-left: 26px;
     }
     .pagina {
         width: 40px;

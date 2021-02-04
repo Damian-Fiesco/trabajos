@@ -8,7 +8,7 @@
     <title>Formualario de registro</title>
 </head>
 
-<body>
+<body class="background-form-registro">
 
     <?php
     $title = "El sitio que te da los mejores descuentos";
@@ -16,11 +16,11 @@
     ?>
     <!-- Start-->
     <div class="container">
-        <form class="text-center form-registro2" action="" method="POST">
+        <form class="text-center form-registro" action="" method="POST">
 
             <div class="row">
                 <div class="col-12">
-                    <h2 class="title2">CREA TU CUENTA</h2>
+                    <h2 class="title2-2">INGRESA O <span class="blue-text2">CREA TU CUENTA</span></h2>
                 </div>
             </div>
 
