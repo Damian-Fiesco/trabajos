@@ -17,11 +17,11 @@
     <!-- Start-->
     <div class="container">
         <div class="row">
-            <div class="col-3">
+            <div class="float-start">
                 <button type="button" class="float-start scroll-arrows-left-button">
                 </button>
             </div>
-            <div class="text-center col-6">
+            <div class="text-center col-12">
                 <button type="button" class="text-center button-6">
                     <div class="float-start col-12 col-md-6 button-6-img">
                     </div>
@@ -37,7 +37,7 @@
                     </div>
                 </button>
             </div>
-            <div class="col-3">
+            <div class="float-end">
                 <button type="button" class="float-end scroll-arrows-right-button">
                 </button>
             </div>
