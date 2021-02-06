@@ -4,6 +4,46 @@
     text-decoration: none!important;
 }
 
+/*************/
+/*     Modal
+/*************/
+#video-sponsor{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.Modal {
+    height: 100%;
+    width: 100%;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: black  ;
+    z-index: 9999;
+    color:#fff;
+    overflow: auto; 
+}
+
+.Modal .Close {
+    position: absolute;
+    top: 71px;
+    right: 65px;
+    z-index: 999;
+    cursor: pointer;
+}
+.Modal .close_rect {
+    position: absolute;
+    top: 140px;
+    right: 70px;
+    z-index: 999;
+    cursor: pointer;
+}
+/*************/
+/*     Modal
+/*************/
+
 @media screen and (max-width: 1680px) {}
 
 .header-bar {

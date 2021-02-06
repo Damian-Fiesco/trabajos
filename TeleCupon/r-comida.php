@@ -299,6 +299,7 @@
     </div>
 
     <!--End-->
+
     <?php
     include_once('includes/footer.php');
     ?>
