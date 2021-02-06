@@ -19,19 +19,26 @@
         <div class="que-estas-buscando-header-comida">
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center p-que-estas-buscando-header-comida">
+                    <p class="text-center p-que-estas-buscando-header-white">
                         ¿QUÉ ESTAS BUSCANDO?
                     </p>
                 </div>
             </div>
-            <div class="que-estas-buscando-header-comida-table">
+            <div class="que-estas-buscando-header-white-table">
                 <div class="row">
-                    <table style="width:100%;" class="text-center que-estas-buscando-header-comida-table">
+                    <table style="width:100%;" class="text-center que-estas-buscando-header-white-table">
                         <th class="first-white">SUPER</th>
                         <th class="second-white">SERVICIOS</th>
                         <th clasS="third-white-selected">COMIDA</th>
                         <th class="last-white">MENSAJERIA</th>
                     </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p clasS="que-estas-buscando-header-title">
+                        COMIDA
+                    </p>
                 </div>
             </div>
         </div>
@@ -40,8 +47,8 @@
 
             <div class="col-4">
                 <div class="fast-food">
-                    <button type="button" class="button-15" alt="fast-food">
-                        <p class="text-center p-fast-food">
+                    <button type="button" class="selective-button1-comida" alt="fast-food">
+                        <p class="text-center p-selective-buttons">
                             FastFood
                         </p>
                     </button>
@@ -50,8 +57,8 @@
 
             <div class="col-4">
                 <div class="gourmet">
-                    <button type="button" class="button-16" alt="gourmet">
-                        <p class="text-center p-gourmet">
+                    <button type="button" class="selective-button2-comida" alt="gourmet">
+                        <p class="text-center p-selective-buttons">
                             Gourmet
                         </p>
                     </button>
@@ -60,8 +67,8 @@
 
             <div class="col-4">
                 <div class="tradicional">
-                    <button type="button" class="button-17" alt="tradicional">
-                        <p class="text-center p-tradicional">
+                    <button type="button" class="selective-button3-comida" alt="tradicional">
+                        <p class="text-center p-selective-buttons">
                             Tradicional
                         </p>
                     </button>
@@ -82,17 +89,17 @@
             </div>
         </div>
 
-        <div class="tiendas-comida">
-            <div class="half1-comida">
+        <div class="tiendas">
+            <div class="half1-tiendas">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="tienda-comida">
+                        <div class="tienda">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="images/__716UCy_400x400 1.png" class="img-fluid tienda-comida-img" alt="tienda-comida1-img">
+                                    <img src="images/__716UCy_400x400 1.png" class="img-fluid tienda-img" alt="tienda-comida1-img">
                                 </div>
                                 <div class="col-8">
-                                    <div class="tienda-comida-details">
+                                    <div class="tienda-details">
                                         <p class="nombre">
                                             EL IRLANDÉS
                                         </p>
@@ -102,7 +109,7 @@
                                         <p class="rating">
                                             <img src="images/Star 4.png" class="img-fluid star"> 3.4
                                         </p>
-                                        <div class="r-comida-buttons">
+                                        <div class="tienda-buttons">
                                             <div class="row">
                                                 <div class="col-3">
                                                     <button type="button" class="pagina">
@@ -134,16 +141,16 @@
                 </div>
             </div>
 
-            <div class="half2-comida">
+            <div class="half2-tiendas">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="tienda-comida">
+                        <div class="tienda">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="images/__716UCy_400x400 1.png" class="img-fluid tienda-comida-img" alt="tienda-comida1-img">
+                                    <img src="images/__716UCy_400x400 1.png" class="img-fluid tienda-img" alt="tienda-comida1-img">
                                 </div>
                                 <div class="col-8">
-                                    <div class="tienda-comida-details">
+                                    <div class="tienda-details">
                                         <p class="nombre">
                                             EL IRLANDÉS
                                         </p>
@@ -153,7 +160,7 @@
                                         <p class="rating">
                                             <img src="images/Star 4.png" class="img-fluid star"> 3.4
                                         </p>
-                                        <div class="r-comida-buttons">
+                                        <div class="tienda-buttons">
                                             <div class="row">
                                                 <div class="col-3">
                                                     <button type="button" class="pagina">
@@ -185,16 +192,16 @@
                 </div>
             </div>
 
-            <div class="half1-comida">
+            <div class="half1-tiendas">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="tienda-comida">
+                        <div class="tienda">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="images/__716UCy_400x400 1.png" class="img-fluid tienda-comida-img" alt="tienda-comida1-img">
+                                    <img src="images/__716UCy_400x400 1.png" class="img-fluid tienda-img" alt="tienda-comida1-img">
                                 </div>
                                 <div class="col-8">
-                                    <div class="tienda-comida-details">
+                                    <div class="tienda-details">
                                         <p class="nombre">
                                             EL IRLANDÉS
                                         </p>
@@ -204,7 +211,7 @@
                                         <p class="rating">
                                             <img src="images/Star 4.png" class="img-fluid star"> 3.4
                                         </p>
-                                        <div class="r-comida-buttons">
+                                        <div class="tienda-buttons">
                                             <div class="row">
                                                 <div class="col-3">
                                                     <button type="button" class="pagina">
@@ -236,16 +243,16 @@
                 </div>
             </div>
 
-            <div class="half2-comida">
-                <div class="row ">
+            <div class="half2-tiendas">
+                <div class="row">
                     <div class="col-md-6">
-                        <div class="tienda-comida">
+                        <div class="tienda">
                             <div class="row">
                                 <div class="col-3">
-                                    <img src="images/__716UCy_400x400 1.png" class="img-fluid tienda-comida-img" alt="tienda-comida1-img">
+                                    <img src="images/__716UCy_400x400 1.png" class="img-fluid tienda-img" alt="tienda-comida1-img">
                                 </div>
                                 <div class="col-8">
-                                    <div class="tienda-comida-details">
+                                    <div class="tienda-details">
                                         <p class="nombre">
                                             EL IRLANDÉS
                                         </p>
@@ -255,7 +262,7 @@
                                         <p class="rating">
                                             <img src="images/Star 4.png" class="img-fluid star"> 3.4
                                         </p>
-                                        <div class="r-comida-buttons">
+                                        <div class="tienda-buttons">
                                             <div class="row">
                                                 <div class="col-3">
                                                     <button type="button" class="pagina">

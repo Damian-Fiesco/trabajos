@@ -15,21 +15,21 @@
     ?>
     <!-- Start-->
     <div class="container">
-        <div class="que-estas-buscando-header">
+        <div class="que-estas-buscando-header-black">
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center p-que-estas-buscando-header">
+                    <p class="text-center p-que-estas-buscando-header-black">
                         ¿QUÉ ESTAS BUSCANDO?
                     </p>
                 </div>
             </div>
-            <div class="que-estas-buscando-header-table">
+            <div class="que-estas-buscando-header-black-table">
                 <div class="row">
-                    <table style="width:100%;" class="text-center que-estas-buscando-header-table">
-                        <th class="first">SUPER</th>
-                        <th class="second">SERVICIOS</th>
-                        <th clasS="third">COMIDA</th>
-                        <th class="last">MENSAJERIA</th>
+                    <table style="width:100%;" class="text-center que-estas-buscando-header-black-table">
+                        <th class="first-black">SUPER</th>
+                        <th class="second-black">SERVICIOS</th>
+                        <th clasS="third-black">COMIDA</th>
+                        <th class="last-black">MENSAJERIA</th>
                     </table>
                 </div>
             </div>

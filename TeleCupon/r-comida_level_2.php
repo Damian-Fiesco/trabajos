@@ -19,19 +19,26 @@
         <div class="que-estas-buscando-header-comida">
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center p-que-estas-buscando-header-comida">
+                    <p class="text-center p-que-estas-buscando-header-white">
                         ¿QUÉ ESTAS BUSCANDO?
                     </p>
                 </div>
             </div>
-            <div class="que-estas-buscando-header-comida-table">
+            <div class="que-estas-buscando-header-white-table">
                 <div class="row">
-                    <table style="width:100%;" class="text-center que-estas-buscando-header-comida-table">
+                    <table style="width:100%;" class="text-center que-estas-buscando-header-white-table">
                         <th class="first-white">SUPER</th>
                         <th class="second-white">SERVICIOS</th>
                         <th clasS="third-white-selected">COMIDA</th>
                         <th class="last-white">MENSAJERIA</th>
                     </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p clasS="que-estas-buscando-header-title">
+                        COMIDA
+                    </p>
                 </div>
             </div>
         </div>
