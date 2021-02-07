@@ -1013,6 +1013,16 @@
     color: #FFFFFF;
 }
 
+.selective-button1{
+    border-width: 0px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+.selective-button1 img{
+    margin: 0 auto;
+    border-radius: 5px;
+}
 .selective-button1-comida {
     background-color: #FFFFFF;
     background-image: url(../images/FastFood.png);
@@ -1032,8 +1042,7 @@
     font-size: 13px;
     line-height: 15px;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 104px;
+    margin: 0 auto; 
     color: #757373;
 }
 
@@ -1087,11 +1096,9 @@
 
 .mapa-banner {
     width: 374px;
-    height: 197px;
-    margin: 0 1px 0 -6px;
+    height: auto; 
     margin-top: 20px;
-    margin-bottom: 10px;
-    background-image: url(../images/Map-small.png);
+    margin-bottom: 10px; 
     padding-top: 15px;
 }
 
@@ -1266,18 +1273,22 @@
     margin-left: -12px;
 }
 
+.que-estas-buscando-header{
+    background-color: #FF891D; 
+}
+
 .que-estas-buscando-header-title {
-    display: revert;
-    width: 101px;
-    height: 22px;
+    width: 100%;
+    height: 45px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 21px;
     line-height: 25px;
     margin: 0 auto;
-    margin-top: 14px;
+    padding: 9px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .p-que-estas-buscando-header-white {
@@ -5047,7 +5058,7 @@ a {
     height: 145px;
     margin-lefT: -8px;
 }
-*/
+    */
     .button-6-text {
         margin-top: -125px;
         color: transparent;
@@ -5491,7 +5502,7 @@ a {
     }
     .mapa-banner {
         width: 374px;
-        height: 197px;
+        height: auto;
         margin: 0 1px 0 -6px;
         margin-top: 20px;
         margin-bottom: 10px;
@@ -7322,7 +7333,7 @@ a {
         height: 139px;
         border-radius: 10px;
         margin: 10px auto;
-        padding: 15px 21px;
+        padding: 22px 34px;
     }
     .super span {
         font-family: Roboto;
@@ -7740,32 +7751,37 @@ a {
         margin-left: -117px;
         margin-bottom: 10px;
     }
-    .que-estas-buscando-header-title {
-        display: none;
-    }
+
+
     .que-estas-buscando-header-servicios {
         background-color: #00BAF2;
         width: 1514px;
         height: 135px;
-        margin: 0 auto;
-        margin-left: -117px;
+        margin: 0 auto; 
         margin-bottom: 10px;
+    }
+    .que-estas-buscando-header{
+        background-color: #FF891D;
+        width: 100%; 
+        margin: 0 auto;
+        margin-bottom: 10px;
+        max-width: 100%;
     }
     .que-estas-buscando-header-comida {
         background-color: #FF891D;
         width: 1514px;
         height: 135px;
         margin: 0 auto;
-        margin-left: -117px;
         margin-bottom: 10px;
+        max-width: 100%;
     }
     .que-estas-buscando-header-mensajeria {
         background-color: #FFCB21;
         width: 1514px;
         height: 135px;
-        margin: 0 auto;
-        margin-left: -117px;
+        margin: 0 auto; 
         margin-bottom: 10px;
+        max-width: 100%;
     }
     .p-que-estas-buscando-header-white {
         display: revert;
@@ -7859,6 +7875,13 @@ a {
         margin-top: 14px;
         color: #FFFFFF;
     }
+    .selective-button1 {  
+        border-width: 0px;
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        border-radius: 10px;
+    }
     .selective-button1-comida {
         background-color: #FFFFFF;
         background-image: url(../images/FastFood-Large.png);
@@ -7878,8 +7901,7 @@ a {
         font-size: 23px;
         line-height: 30px;
         text-align: center;
-        margin: 0 auto;
-        margin-top: 104px;
+        margin: 0 auto;  
         color: #444444;
     }
     .selective-button2-comida {
@@ -8028,12 +8050,10 @@ a {
         color: #444444;
     }
     .mapa-banner {
-        width: 112%;
-        height: 253px;
-        margin: 0px 1px 0 -70px;
+        width: 100%;
+        height: auto; 
         margin-top: 40px;
-        margin-bottom: 65px;
-        background-image: url(../images/Map-large.png);
+        margin-bottom: 65px; 
         padding-top: 0px;
     }
     .ofertas-cerca-de-ti {
@@ -8073,7 +8093,7 @@ a {
         height: 118px;
     }
     .nombre {
-        width: 155px;
+        width: 100%;
         height: 13px;
         margin-left: 20px;
         margin-top: -11px;
