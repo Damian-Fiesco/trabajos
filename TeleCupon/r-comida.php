@@ -318,6 +318,87 @@
     include_once('includes/footer.php');
     ?>
 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEtXbPL4tjrbq3uXhPxrjENw4t9vcGSx0"></script>
+
+    <script>
+        //var host = document.getElementById('host').value;
+        var map, marker;
+
+        function errorFunction() {
+            codeLatLng(19.44158864401475, -99.20661594603274);
+        }
+
+        function successFunction(position) {
+            var lat = position.coords.latitude;
+            var lng = position.coords.longitude;
+            codeLatLng(parseFloat(lat), parseFloat(lng));
+        }
+
+        function initialize() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+            }
+        }
+
+        function codeLatLng(lat, lng) {
+
+
+            //document.getElementById('latitude').value = lat;
+            //document.getElementById('longitude').value = lng;
+            var location = {
+                lat: lat,
+                lng: lng
+            };
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: location
+            });
+
+            axios.post(host + '/api/neadbyBranchesGeneral', {
+                lat: lat,
+                lng: lng
+            }).then(function(response) {
+                if (response.data.data.nearby) {
+                    response.data.data.nearby.map(function(branch) {
+                        console.log(branch);
+                        create_marker({
+                            lat: parseFloat(branch.latitude),
+                            lng: parseFloat(branch.longitude)
+                        });
+                    });
+                }
+            }).catch(function(error) {
+                console.log(error);
+            });
+
+
+
+        }
+
+        function create_marker(location) {
+            marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                draggable: false,
+                infoWindow: false
+            });
+            marker.dataContent = '';
+            marker.infoWindow = new google.maps.InfoWindow({
+                maxWidth: 260
+            });
+            google.maps.event.addListener(marker.infoWindow, 'closeclick', function() {});
+            google.maps.event.addListener(marker, 'dragstart', function() {});
+            google.maps.event.addListener(marker, 'drag', function() {});
+            google.maps.event.addListener(marker, 'dragend', function(event) {
+                $('input[name="latitude"]').val(event.latLng.lat());
+                $('input[name="longitude"]').val(event.latLng.lng());
+            });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+ 
+    </script>
 </body>
 
 </html>
