@@ -14,8 +14,8 @@
     include_once('includes/header.php');
     ?>
     <!-- Start-->
-    <div class="container">
-        <div class="que-estas-buscando-header-comida">
+    <div class="que-estas-buscando-header" style="background: #ff8a1d">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <p class="text-center p-que-estas-buscando-header-white">
@@ -33,15 +33,16 @@
                     </table>
                 </div>
             </div>
-            <div class="row">
+            <div class="row  d-block d-sm-none">
                 <div class="col-12">
                     <p clasS="que-estas-buscando-header-title">
-                        COMIDA
+                        Comida
                     </p>
                 </div>
             </div>
         </div>
-
+    </div>
+    <div class="container">
         <div class="row">
             <div class="text-center">
                 <p class="text-center comida-tradicional-title">
@@ -163,7 +164,7 @@
             </div>
         </div>
 
-        
+
 
         <div class="row">
             <div class="text-center col-12 col-md-6">
@@ -224,14 +225,13 @@
             </div>
         </div>
 
+
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="footer-registrate">
-                    <p class="p-footer-registrate">
-                        ¡REGÍSTRATE Y CONOCE TODAS LAS PROMOCIONES!
-                    </p>
-                    <img src="images/Logo-simple.png" class="footer-registrate-img">
-                </div>
+                <img src="images/Footer-large (1).png" class="footer-large img-fluid d-none d-md-block">
+                <img src="images/footer-small.png" class="footer-large img-fluid d-block d-md-none">
             </div>
         </div>
     </div>
