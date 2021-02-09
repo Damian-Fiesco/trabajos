@@ -15,8 +15,8 @@
     include_once('includes/header.php');
     ?>
     <!-- Start-->
-    <div class="container">
-        <div class="que-estas-buscando-header-comida">
+    <div class="que-estas-buscando-header" style="background: #ff8a1d">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <p class="text-center p-que-estas-buscando-header-white">
@@ -34,367 +34,172 @@
                     </table>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <p clasS="que-estas-buscando-header-title">
-                        COMIDA
-                    </p>
-                </div>
-            </div>
         </div>
-
+    </div>
+    <div class="container">
         <div class="row">
             <div class="text-center">
                 <p class="text-center comida-tradicional-title">
-                    COMIDA-<b>Tradicional</b>
+                    Comida-<b>FastFood</b>
                 </p>
             </div>
         </div>
 
-        <div class="upper-three">
-            <div class="row">
-                <div class="col-md-4 col-12">
-                    <div class="text-center comida-tradicional-tienda1">
-                        <img src="images/comida-tradicional-tienda1-img.png" alt="comida-tradicional-tienda1-banner" class="comida-tradicional-tienda1-img">
-                        <p class="p1-comida-tradicional-tienda1">
+        <div class="row">
+
+            <div class="col-md-4 col-12">
+                <div class="text-center comida-tradicional-tienda1 pb-3">
+                    <a href="https://telecupon2021.test/sponsor/pasillo-de-humo">
+                        <img src="https://telecupon2021.test/storage/sponsors/cL2lZH9JSv6z7zwmPd0mph91U4CDQHUTpjn225m1.png" alt="Pasillo de Humo (banner)" class="comida-tradicional-tienda1-img">
+                    </a>
+                    <p class="p1-comida-tradicional-tienda1">
+                        <a href="https://telecupon2021.test/sponsor/pasillo-de-humo">
                             Pasillo de Humo
-                        </p>
-                        <p class="p2-comida-tradicional-tienda1">
-                            Los mejores productos de calidad y variedad.
-                            <br>
-                            ¡Enviamos a todo USA!
-                        </p>
-                        <div class="row comida-tradicional-buttons">
+                        </a>
+                    </p>
+                    <p class="p2-comida-tradicional-tienda1">
+                        Los mejores productos de calidad y variedad.
+                        ¡Enviamos a todo USA!
+                    </p>
+                    <div class="comida-tradicional-buttons">
+                        <div class="row ">
                             <div class="col-3">
                                 <button type="button" class="pagina-comida-tradicional">
-                                    <img src="images/Pagina-button.png" class="img-fluid pagina-comida-tradicional-img">
+                                    <img src="https://telecupon2021.test/images/Pagina-button.png" class="img-fluid pagina-comida-tradicional-img">
                                 </button>
                             </div>
                             <div class="col-3">
                                 <button type="button" class="video-comida-tradicional">
-                                    <img src="images/Video-button.png" class="img-fluid video-comida-tradicional-img">
+                                    <img src="https://telecupon2021.test/images/Video-button.png" class="img-fluid video-comida-tradicional-img">
                                 </button>
                             </div>
                             <div class="col-3">
                                 <button type="button" class="mensaje-comida-tradicional">
-                                    <img src="images/Mensajes-button.png" class="img-fluid mensaje-comida-tradicional-img">
+                                    <img src="https://telecupon2021.test/images/Mensajes-button.png" class="img-fluid mensaje-comida-tradicional-img">
                                 </button>
                             </div>
                             <div class="col-3">
                                 <button type="button" class="telefono-comida-tradicional">
-                                    <img src="images/Telefono-button.png" class="img-fluid telefono-comida-tradicional-img">
+                                    <img src="https://telecupon2021.test/images/Telefono-button.png" class="img-fluid telefono-comida-tradicional-img">
                                 </button>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-1-comida-tradicional-tienda1">
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="cupon-1-comida-tradicional-tienda1">
+                                <a href="https://telecupon2021.test/coupon/10-de-decuento-2">
                                     <button type="button" class="button-cupon-1-comida-tradicional-tienda1">
                                         <p class="p-cupon-1-comida-tradicional-tienda1">
-                                            <b>UNA BEBIDA GRATIS.</b>A partir de $25 usd de consumo.
+
+                                            <b> 10 % DE DECUENTO 2</b>
                                         </p>
                                     </button>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!--</div>-->
 
 
-                <!--<div class="row">-->
-                <div class="col-md-4 col-12">
-                    <div class="text-center comida-tradicional-tienda1">
-                        <img src="images/comida-tradicional-tienda1-img.png" alt="comida-tradicional-tienda1-banner" class="comida-tradicional-tienda1-img">
-                        <p class="p1-comida-tradicional-tienda1">
-                            Pasillo de Humo
-                        </p>
-                        <p class="p2-comida-tradicional-tienda1">
-                            Los mejores productos de calidad y variedad.
-                            <br>
-                            ¡Enviamos a todo USA!
-                        </p>
-                        <div class="row comida-tradicional-buttons">
-                            <div class="col-3">
-                                <button type="button" class="pagina-comida-tradicional">
-                                    <img src="images/Pagina-button.png" class="img-fluid pagina-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="video-comida-tradicional">
-                                    <img src="images/Video-button.png" class="img-fluid video-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="mensaje-comida-tradicional">
-                                    <img src="images/Mensajes-button.png" class="img-fluid mensaje-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="telefono-comida-tradicional">
-                                    <img src="images/Telefono-button.png" class="img-fluid telefono-comida-tradicional-img">
-                                </button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-1-comida-tradicional-tienda1">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="cupon-1-comida-tradicional-tienda1">
+                                <a href="https://telecupon2021.test/coupon/10-de-decuento">
                                     <button type="button" class="button-cupon-1-comida-tradicional-tienda1">
                                         <p class="p-cupon-1-comida-tradicional-tienda1">
-                                            <b>UNA BEBIDA GRATIS.</b>A partir de $25 usd de consumo.
-                                        </p>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--</div>-->
 
-                <!--<div class="row">-->
-                <div class="col-md-4 col-12">
-                    <div class="text-center comida-tradicional-tienda2">
-                        <img src="images/comida-tradicional-tienda2-img.png" alt="comida-tradicional-tienda2-banner" class="comida-tradicional-tienda2-img">
-                        <p class="p1-comida-tradicional-tienda2">
-                            Lardo
-                        </p>
-                        <p class="p2-comida-tradicional-tienda2">
-                            Los mejores productos de calidad y variedad.
-                            <br>
-                            ¡Enviamos a todo USA!
-                        </p>
-                        <div class="row comida-tradicional-buttons">
-                            <div class="col-3">
-                                <button type="button" class="pagina-comida-tradicional">
-                                    <img src="images/Pagina-button.png" class="img-fluid pagina-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="video-comida-tradicional">
-                                    <img src="images/Video-button.png" class="img-fluid video-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="mensaje-comida-tradicional">
-                                    <img src="images/Mensajes-button.png" class="img-fluid mensaje-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="telefono-comida-tradicional">
-                                    <img src="images/Telefono-button.png" class="img-fluid telefono-comida-tradicional-img">
-                                </button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-1-comida-tradicional-tienda2">
-                                    <button type="button" class="button-cupon-1-comida-tradicional-tienda2">
-                                        <p class="p-cupon-1-comida-tradicional-tienda2">
-                                            <b>UNA BEBIDA GRATIS.</b>A partir de $25 usd de consumo.
+                                            <b> 10 % DE DECUENTO.</b> A partir de $25 usd de consumo.
                                         </p>
                                     </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-2-comida-tradicional-tienda2">
-                                    <button type="button" class="button-cupon-2-comida-tradicional-tienda2">
-                                        <p class="p-cupon-2-comida-tradicional-tienda2">
-                                            <b>10 % DE DESCUENTO. </b>A partir de $55 usd de consumo.
-                                        </p>
-                                    </button>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="cupon-1-comida-tradicional-tienda1">
+                                <a href="https://telecupon2021.test/coupon/una-bebida-gratis">
+                                    <button type="button" class="button-cupon-1-comida-tradicional-tienda1">
+                                        <p class="p-cupon-1-comida-tradicional-tienda1">
+
+                                            <b> UNA BEBIDA GRATIS.</b> A partir de $25 usd de consumo.
+                                        </p>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
 
-        <div class="lower-three">
-            <div class="row">
-                <div class="col-md-4 col-12">
-                    <div class="text-center comida-tradicional-tienda2">
-                        <img src="images/comida-tradicional-tienda2-img.png" alt="comida-tradicional-tienda2-banner" class="comida-tradicional-tienda2-img">
-                        <p class="p1-comida-tradicional-tienda2">
+            <div class="col-md-4 col-12">
+                <div class="text-center comida-tradicional-tienda1 pb-3">
+                    <a href="https://telecupon2021.test/sponsor/lardo">
+                        <img src="https://telecupon2021.test/storage/sponsors/iSYPz2ByhCFDNIH5kJhdVs0dBirc83n1GiC8zVkE.png" alt="Lardo (banner)" class="comida-tradicional-tienda1-img">
+                    </a>
+                    <p class="p1-comida-tradicional-tienda1">
+                        <a href="https://telecupon2021.test/sponsor/lardo">
                             Lardo
-                        </p>
-                        <p class="p2-comida-tradicional-tienda2">
-                            Los mejores productos de calidad y variedad.
-                            <br>
-                            ¡Enviamos a todo USA!
-                        </p>
-                        <div class="row comida-tradicional-buttons">
+                        </a>
+                    </p>
+                    <p class="p2-comida-tradicional-tienda1">
+                        Los mejores productos de calidad y variedad.
+                        ¡Enviamos a todo USA!
+                    </p>
+                    <div class="comida-tradicional-buttons">
+                        <div class="row ">
                             <div class="col-3">
                                 <button type="button" class="pagina-comida-tradicional">
-                                    <img src="images/Pagina-button.png" class="img-fluid pagina-comida-tradicional-img">
+                                    <img src="https://telecupon2021.test/images/Pagina-button.png" class="img-fluid pagina-comida-tradicional-img">
                                 </button>
                             </div>
                             <div class="col-3">
                                 <button type="button" class="video-comida-tradicional">
-                                    <img src="images/Video-button.png" class="img-fluid video-comida-tradicional-img">
+                                    <img src="https://telecupon2021.test/images/Video-button.png" class="img-fluid video-comida-tradicional-img">
                                 </button>
                             </div>
                             <div class="col-3">
                                 <button type="button" class="mensaje-comida-tradicional">
-                                    <img src="images/Mensajes-button.png" class="img-fluid mensaje-comida-tradicional-img">
+                                    <img src="https://telecupon2021.test/images/Mensajes-button.png" class="img-fluid mensaje-comida-tradicional-img">
                                 </button>
                             </div>
                             <div class="col-3">
                                 <button type="button" class="telefono-comida-tradicional">
-                                    <img src="images/Telefono-button.png" class="img-fluid telefono-comida-tradicional-img">
+                                    <img src="https://telecupon2021.test/images/Telefono-button.png" class="img-fluid telefono-comida-tradicional-img">
                                 </button>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-1-comida-tradicional-tienda2">
-                                    <button type="button" class="button-cupon-1-comida-tradicional-tienda2">
-                                        <p class="p-cupon-1-comida-tradicional-tienda2">
-                                            <b>UNA BEBIDA GRATIS.</b>A partir de $25 usd de consumo.
-                                        </p>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-2-comida-tradicional-tienda2">
-                                    <button type="button" class="button-cupon-2-comida-tradicional-tienda2">
-                                        <p class="p-cupon-2-comida-tradicional-tienda2">
-                                            <b>10 % DE DESCUENTO. </b>A partir de $55 usd de consumo.
-                                        </p>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-                <!--</div>-->
 
-                <!--<div class="row">-->
-                <div class="col-md-4 col-12">
-                    <div class="text-center comida-tradicional-tienda2">
-                        <img src="images/comida-tradicional-tienda2-img.png" alt="comida-tradicional-tienda2-banner" class="comida-tradicional-tienda2-img">
-                        <p class="p1-comida-tradicional-tienda2">
-                            Lardo
-                        </p>
-                        <p class="p2-comida-tradicional-tienda2">
-                            Los mejores productos de calidad y variedad.
-                            <br>
-                            ¡Enviamos a todo USA!
-                        </p>
-                        <div class="row comida-tradicional-buttons">
-                            <div class="col-3">
-                                <button type="button" class="pagina-comida-tradicional">
-                                    <img src="images/Pagina-button.png" class="img-fluid pagina-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="video-comida-tradicional">
-                                    <img src="images/Video-button.png" class="img-fluid video-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="mensaje-comida-tradicional">
-                                    <img src="images/Mensajes-button.png" class="img-fluid mensaje-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="telefono-comida-tradicional">
-                                    <img src="images/Telefono-button.png" class="img-fluid telefono-comida-tradicional-img">
-                                </button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-1-comida-tradicional-tienda2">
-                                    <button type="button" class="button-cupon-1-comida-tradicional-tienda2">
-                                        <p class="p-cupon-1-comida-tradicional-tienda2">
-                                            <b>UNA BEBIDA GRATIS.</b>A partir de $25 usd de consumo.
-                                        </p>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-2-comida-tradicional-tienda2">
-                                    <button type="button" class="button-cupon-2-comida-tradicional-tienda2">
-                                        <p class="p-cupon-2-comida-tradicional-tienda2">
-                                            <b>10 % DE DESCUENTO. </b>A partir de $55 usd de consumo.
-                                        </p>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--</div>-->
 
-                <!--<div class="row">-->
-                <div class="col-md-4 col-12">
-                    <div class="text-center comida-tradicional-tienda2">
-                        <img src="images/comida-tradicional-tienda2-img.png" alt="comida-tradicional-tienda2-banner" class="comida-tradicional-tienda2-img">
-                        <p class="p1-comida-tradicional-tienda2">
-                            Lardo
-                        </p>
-                        <p class="p2-comida-tradicional-tienda2">
-                            Los mejores productos de calidad y variedad.
-                            <br>
-                            ¡Enviamos a todo USA!
-                        </p>
-                        <div class="row comida-tradicional-buttons">
-                            <div class="col-3">
-                                <button type="button" class="pagina-comida-tradicional">
-                                    <img src="images/Pagina-button.png" class="img-fluid pagina-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="video-comida-tradicional">
-                                    <img src="images/Video-button.png" class="img-fluid video-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="mensaje-comida-tradicional">
-                                    <img src="images/Mensajes-button.png" class="img-fluid mensaje-comida-tradicional-img">
-                                </button>
-                            </div>
-                            <div class="col-3">
-                                <button type="button" class="telefono-comida-tradicional">
-                                    <img src="images/Telefono-button.png" class="img-fluid telefono-comida-tradicional-img">
-                                </button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-1-comida-tradicional-tienda2">
-                                    <button type="button" class="button-cupon-1-comida-tradicional-tienda2">
-                                        <p class="p-cupon-1-comida-tradicional-tienda2">
-                                            <b>UNA BEBIDA GRATIS.</b>A partir de $25 usd de consumo.
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="cupon-1-comida-tradicional-tienda1">
+                                <a href="https://telecupon2021.test/coupon/una-bebida-gratis">
+                                    <button type="button" class="button-cupon-1-comida-tradicional-tienda1">
+                                        <p class="p-cupon-1-comida-tradicional-tienda1">
+
+                                            <b> UNA BEBIDA GRATIS.</b> A partir de $25 usd de consumo.
                                         </p>
                                     </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="cupon-2-comida-tradicional-tienda2">
-                                    <button type="button" class="button-cupon-2-comida-tradicional-tienda2">
-                                        <p class="p-cupon-2-comida-tradicional-tienda2">
-                                            <b>10 % DE DESCUENTO. </b>A partir de $55 usd de consumo.
-                                        </p>
-                                    </button>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
 
+
+
+        </div>
     </div>
+
     <!--End-->
     <?php
     include_once('includes/footer.php');
