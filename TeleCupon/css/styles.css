@@ -1030,6 +1030,10 @@
     margin-top: 20px;
     width: 100px;
     height: 100px;
+    text-decoration: none;
+}
+.selective-button1:hover {
+    text-decoration: underline;
 }
 
 .selective-button1 img {
@@ -1154,9 +1158,8 @@
 }
 
 .nombre {
-    width: 79px;
-    height: 13px;
-    margin-left: 20px;
+    width: 100%;
+    height: 13px; 
     margin-top: -5px;
     font-family: Roboto;
     font-style: normal;
@@ -1164,10 +1167,13 @@
     font-size: 13px;
     color: #757373;
 }
+.nombre a{
+    color: #757373;
+    text-decoration: none;
+}
 
 .categoria {
-    margin-top: -13px;
-    margin-left: 20px;
+    margin-top: -13px; 
     font-size: 10px;
     font-family: Roboto;
     color: #757373;
@@ -1187,8 +1193,7 @@
     height: 33px;
     background-color: #DE2332;
     border-color: transparent;
-    border-radius: 2px;
-    margin-left: 25px;
+    border-radius: 2px; 
 }
 
 .pagina-button-img {
@@ -1203,8 +1208,7 @@
     height: 33px;
     background-color: #DE2332;
     border-color: transparent;
-    border-radius: 2px;
-    margin-left: 10px;
+    border-radius: 2px; 
 }
 
 .video-button-img {
@@ -1218,8 +1222,7 @@
     height: 33px;
     background-color: #DE2332;
     border-color: transparent;
-    border-radius: 2px;
-    margin-left: -5px;
+    border-radius: 2px; 
 }
 
 .mensaje-button-img {
@@ -1231,8 +1234,7 @@
     height: 33px;
     background-color: #DE2332;
     border-color: transparent;
-    border-radius: 2px;
-    margin-left: -20px;
+    border-radius: 2px; 
 }
 
 .telefono-button-img {
@@ -1677,7 +1679,7 @@
 
 .comida-tradicional-tienda1 {
     width: 339px;
-    height: 269px;
+    height: auto;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.28);
@@ -1825,7 +1827,7 @@
     background: linear-gradient(82.06deg, #62A6F7 13.37%, #3054D5 67.57%);
     border-radius: 8px;
     border-color: transparent;
-    margin: 20px auto;
+    margin: 20px auto 0;
 }
 
 .p-cupon-1-comida-tradicional-tienda1 {
@@ -5909,7 +5911,7 @@ a {
     }
     .comida-tradicional-tienda1 {
         width: 339px;
-        height: 269px;
+        height: auto;
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.28);
@@ -6042,7 +6044,7 @@ a {
         background: linear-gradient(82.06deg, #62A6F7 13.37%, #3054D5 67.57%);
         border-radius: 8px;
         border-color: transparent;
-        margin: 20px auto;
+    margin: 20px auto 0;
     }
     .p-cupon-1-comida-tradicional-tienda1 {
         width: 270px;
@@ -7783,7 +7785,6 @@ a {
     .que-estas-buscando-header {
         background-color: #FF891D;
         width: 100%;
-        height: 136px;
         margin: 0 auto;
         margin-bottom: 10px;
         max-width: 100%;
@@ -8473,7 +8474,7 @@ a {
     }
     .comida-tradicional-tienda1 {
         width: 339px;
-        height: 320px;
+        height: auto;
         border: 1px solid #FFFFFF;
         box-sizing: border-box;
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.28);
@@ -8610,7 +8611,7 @@ a {
         background: linear-gradient(82.06deg, #62A6F7 13.37%, #3054D5 67.57%);
         border-radius: 8px;
         border-color: transparent;
-        margin: 20px auto;
+    margin: 20px auto 0;
     }
     .p-cupon-1-comida-tradicional-tienda1 {
         width: 270px;
@@ -8799,8 +8800,8 @@ a {
     }
     .tienda-landing-buttons {
         margin: 0 auto;
-        margin-top: 60px;
-        margin-bottom: 100px;
+        margin-top: 127px;
+        margin-bottom: 25px;
         margin-left: 110px;
     }
     .button-31-img {
@@ -8900,8 +8901,9 @@ a {
     .mapa-tienda-landing {
         width: 619px;
         height: 331px;
-        margin: 4px 0px 0px 28px;
-        margin-bottom: 61px;
+        margin: 0px -1px 0 55px;
+        margin-top: -23px;
+        margin-bottom: 68px;
         background-image: url(../images/Map-small.png);
         padding-top: 0px;
     }
