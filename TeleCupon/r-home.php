@@ -18,27 +18,21 @@
     <div class="container">
         <div class="row">
             <div class="float-start">
-                <button type="button" class="float-start scroll-arrows-left-button">
+                <button type="button" class=" float-start scroll-arrows-left-button">
                 </button>
             </div>
             <div class="text-center col-12">
-                <button type="button" class="text-center button-6">
-                    <div class="float-start col-12 col-md-6 button-6-img">
+                <div class="text-center button-6">
+                    <div class="float-start col-12 d-xs-block d-sm-block d-md-none">
+                        <img src="images/Group 13.png" class="img-fluid button-6-img">
                     </div>
-                    <div class=" float-end col-12 col-md-6">
-                        <div class="button-6-text">
-                            <p class="p1-button-6">
-                                15%
-                            </p>
-                            <p class="p2-button-6">
-                                <b>DE DESCUENTO</b> EN CENAS<br>DE AÑO NUEVO
-                            </p>
-                        </div>
+                    <div class=" float-end col-12 d-none d-md-block d-lg-block">
+                        <img src="images/Group 13-large.png" class="img-fluid button-6-img">
                     </div>
-                </button>
+                </div>
             </div>
             <div class="float-end">
-                <button type="button" class="float-end scroll-arrows-right-button">
+                <button type="button" class=" float-end scroll-arrows-right-button">
                 </button>
             </div>
         </div>
@@ -129,35 +123,25 @@
             </div>
         </div>
 
+
         <div class="row">
-            <button type="button" class="text-center patrocinadores">
-                <div class="float-start col-12 col-md-6 patrocinadores-img">
+            <button type="button" class="text-center patrocinadores ">
+                <div class="col-12 d-block d-md-none">
+                    <img src="images/Handshake-button.png" class="patrocinadores-img img-fluid">
                 </div>
-                <div class=" float-end col-12 col-md-6">
-                    <div class="patrocinadores-text">
-                        <p class="p1-patrocinadores">
-                            ¿Quieres ser parte de<br>nuestros patrocinadores?
-                        </p>
-                        <p class="p2-patrocinadores">
-                            Haz click aqui
-                        </p>
-                    </div>
+                <div class="col-12 d-none d-md-block">
+                    <img src="images/Handshake-large.png" class="patrocinadores-img img-fluid">
                 </div>
             </button>
         </div>
 
+    </div>
+
+    <div class="container">
         <div class="row">
             <div class="text-center col-12">
-                <div class="text-center footer">
-                    <div class="float-start col-12 col-md-6 ">
-                        <img src="images/tele-logo-cupon2.png" class="img-fluid footer-img">
-                    </div>
-                    <div class="float-end col-12 col-md-6">
-                        <p class="p-footer">
-                            ¡TE DA GRANDES PROMOCIONES!
-                        </p>
-                    </div>
-                </div>
+                <img src="images/Footer-large (1).png" class="footer-large img-fluid d-none d-md-block">
+                <img src="images/Group 14.png" class="footer-large img-fluid d-block d-md-none">
             </div>
         </div>
     </div>
