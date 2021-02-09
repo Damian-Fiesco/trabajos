@@ -197,6 +197,9 @@
     border-color: #3054D4;
     border-width: 1px;
 }
+.r-home-buttons a{
+    text-decoration: none;
+}
 
 
 /* Home -Final-*/
@@ -700,14 +703,15 @@
 
 .patrocinadores {
     max-width: 100%;
-    margin: 0 auto;
+    width: 100%;
     margin-top: 5px;
-    background-color: transparent;
-    border-color: #FFFFFF;
-    background: url(../images/handshake-button.png);
+    border: 0;
     border-radius: 5px;
-    width: 331px;
-    height: 181px;
+    height: 194px;
+    background-color: transparent;
+    background: url(../images/handshake-button.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .patrocinadores-img {
@@ -1028,7 +1032,7 @@
 .selective-button1 {
     border-width: 0px;
     margin-top: 20px;
-    width: 100px;
+    width: 100%;
     height: 100px;
     text-decoration: none;
 }
@@ -4617,6 +4621,22 @@ a {
     padding: 20px;
 }
 
+@media (min-width: 812px) {
+    .title { 
+        text-align: center;
+        width: 100%;
+    }
+    .r-home-buttons {
+        padding: 0!important;
+    }
+    .patrocinadores-text {
+        margin: 29px 30px!important;
+    }
+    .p-footer { 
+        margin-left: 0!important;
+    }
+}
+
 @media (max-width:600px) {
 
     .Modal .Close { 
@@ -6765,13 +6785,11 @@ a {
         width: 100%;
     }
     .logo {
-        margin-top: 2px;
-        margin-left: -50px;
+        margin-top: 2px; 
         width: 250px;
     }
     .user {
-        margin-top: 25px;
-        margin-right: -10px;
+        margin-top: 25px; 
         background: transparent;
         border: transparent;
     }
@@ -6790,9 +6808,10 @@ a {
         height: 35px;
     }
     .text-fields {
-        margin-top: -35px;
+        top: 63px;
         width: 50%;
-        margin-left: 613px;
+        right: 50px;
+        position: absolute;
     }
     .lupa {
         height: 35px;
