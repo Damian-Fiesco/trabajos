@@ -6957,6 +6957,23 @@ a {
         margin-top: 15px;
         margin-lefT: -340px;
     }
+    .text-fields {
+        float: right!important;
+        margin-left: 35%;
+        margin-top: -50px
+    }
+    .title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 19px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: -3px;
+        float: left;
+    }
 }
 
 @media (min-width:801px) {

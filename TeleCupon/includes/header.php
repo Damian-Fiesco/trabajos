@@ -20,7 +20,7 @@
 
         <div class="row">
             <div class="text-fields">
-                <div class="col-12 col-md-9">
+                <div class="col-xs-12 col-md-6 col-lg-9">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text lupa" id="basic-addon1"><img src="images/lupa 2.png" class="img-fluid lupa-img"></span>
