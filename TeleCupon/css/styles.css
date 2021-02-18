@@ -186,6 +186,12 @@
 
 .footer-large {
     margin: 0 auto;
+    display: revert;
+}
+
+.footer-large-large {
+    margin: 0 auto;
+    display: none;
 }
 
 
@@ -4319,7 +4325,7 @@ a {
     .form-registro {
         background-color: #FFFFFF;
         border-radius: 20px;
-        width: 1080px;
+        width: 100%;
         height: 700px;
         margin: 0 auto;
         margin-top: 54px;
@@ -4327,7 +4333,7 @@ a {
     .form-ingreso {
         background-color: #FFFFFF;
         border-radius: 20px;
-        width: 1080px;
+        width: 100%;
         height: 450px;
         margin: 0 auto;
         margin-top: 54px;
@@ -4417,11 +4423,11 @@ a {
         padding-left: 15px;
     }
     .half1 {
-        float: left!important;
+        float: left;
         width: 50%;
     }
     .half2 {
-        float: right!important;
+        float: right;
         width: 50%;
     }
     .pagina-web-form-registro {
@@ -4723,6 +4729,11 @@ a {
     }
     .footer-large {
         margin: 0 auto;
+        display: none;
+    }
+    .footer-large-large {
+        margin: 0 auto;
+        display: revert;
     }
     .footer-img {
         width: 256px;
@@ -5149,12 +5160,12 @@ a {
         font-weight: 900;
     }
     .half1-tiendas {
-        float: left!important;
+        float: left;
         width: 50%;
         margin-bottom: 30px;
     }
     .half2-tiendas {
-        float: right!important;
+        float: right;
         width: 50%;
         margin-bottom: 30px;
     }
@@ -6103,6 +6114,13 @@ a {
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
+        display: none;
+    }
+    .footer-large-large {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: revert;
     }
     /* r-comida-landing.php -Final- */
     /* cupon.php -Inicio- */
@@ -6581,10 +6599,102 @@ a {
 
 @media screen and (max-width: 1024px) and (orientation: portrait) {
     /* iPad Pro portrait */
+    .title2-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-left: -550px;
+    }
+    .button-13 {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 415px;
+        height: 60px;
+        background: #3B5998;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: -160px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+        float: right;
+    }
+    .button-12 {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 415px;
+        height: 60px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+        float: left;
+    }
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
     /* iPad landscape */
+    .title2-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-left: -550px;
+    }
+    .button-13-img {
+        margin: 11px 1px 19px 50px;
+        width: 32px;
+    }
+    .button-13 {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 415px;
+        height: 60px;
+        background: #3B5998;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: -160px;
+        margin-right: 47px;
+        margin-bottom: 100px;
+        float: right!important;
+    }
+    .button-12 {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 415px;
+        height: 60px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 25px;
+        margin-left: 46px;
+        margin-bottom: 100px;
+        float: left!important;
+    }
 }
 
 @media screen and (max-width: 1024px) {}
@@ -6761,6 +6871,13 @@ a {
         margin: 0 auto;
         margin-top: -15px;
     }
+    .footer-large {
+        display: none;
+    }
+    .footer-large-large {
+        margin: 0 auto;
+        display: revert;
+    }
     .p-footer {
         font-family: Roboto;
         font-style: normal;
@@ -6807,6 +6924,151 @@ a {
         background: transparent;
         border: transparent;
     }
+    .background-form-registro {
+        background: rgba(196, 196, 196, 0.25);
+    }
+    .form-registro {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        width: 100%;
+        height: 510px;
+        margin: 0 auto;
+        margin-top: 54px;
+        margin-bottom: 20px;
+    }
+    .title2-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-left: -320px;
+    }
+    .half1 {
+        float: left;
+        width: 50%;
+    }
+    .half2 {
+        float: right;
+        width: 50%;
+    }
+    .large {
+        width: 89%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .nombre-negocio {
+        width: 87%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-left: 31px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .telefono-form-registro {
+        width: 87%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-left: 31px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .giro {
+        width: 87%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: 31px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .pagina-web-form-registro {
+        width: 87%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: 31px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .shorter {
+        width: 90%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: -43px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .short {
+        width: 90%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 17px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .button-12 {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 303px;
+        margin-left: 38px;
+        height: 42px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 31px;
+        float: left;
+    }
+    .button-13 {
+        margin-top: -140px;
+        width: 304px;
+        height: 40px;
+        background: #3B5998;
+        border-radius: 8px;
+        margin-right: 37px;
+        border-color: transparent;
+        float: right;
+    }
+    .button-13-img {
+        margin: 2px 1px 18px 2px;
+        width: 29px;
+    }
 }
 
 @media screen and (max-width: 991px) {}
@@ -6836,6 +7098,158 @@ a {
     .button-6-img {
         display: none;
     }
+    .title2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-left: -800px;
+    }
+    .large {
+        width: 90%;
+        height: 60px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .short {
+        width: 90%;
+        height: 60px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: -36px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .shorter {
+        width: 91%;
+        height: 60px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: -38px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .nombre-negocio {
+        width: 302px;
+        height: 60px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: -21px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .giro {
+        width: 307px;
+        height: 60px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: -25px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .telefono-form-registro {
+        width: 302px;
+        height: 60px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: -21px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .half1 {
+        float: left;
+        width: 50%;
+    }
+    .half2 {
+        float: right;
+        width: 50%;
+    }
+    .pagina-web-form-registro {
+        width: 307px;
+        height: 60px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: -25px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .background-form-registro {
+        background: rgba(196, 196, 196, 0.25);
+    }
+    .form-registro {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        width: 100%;
+        height: 650px;
+        margin: 0 auto;
+        margin-top: 54px;
+    }
+    .button-12 {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 302px;
+        margin-right: 326px;
+        height: 42px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 31px;
+    }
+    .button-13 {
+        margin-top: -42px;
+        width: 307px;
+        height: 42px;
+        background: #3B5998;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-right: 33px;
+        float: right;
+    }
+    .title2-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-right: 340px;
+    }
 }
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
@@ -6846,6 +7260,37 @@ a {
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
     /* iPhone 6/7/8 Plus landscape */
+    .logo {
+        margin-top: 5px;
+        margin-left: -60px;
+    }
+    .pin {
+        margin-top: 15px;
+        margin-right: 0px;
+        background: transparent;
+        border: transparent;
+    }
+    .text-fields {
+        padding: 0 0 0 240px;
+        float: right!important;
+        padding-left: 240px;
+        margin-top: -51px;
+        width: 106%;
+        max-width: 106%;
+    }
+    .title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 19px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-top: -3px;
+        float: left;
+        margin-left: -60px;
+    }
     .button-6 {
         margin: 0 auto;
         margin-top: 20px;
@@ -6853,7 +7298,7 @@ a {
         border-color: #FFFFFF;
         border-radius: 5px;
         width: 1141px;
-        height: 165px;
+        height: 150px;
     }
     .button-6-text {
         margin: -228px 0px -236px;
@@ -6863,9 +7308,9 @@ a {
     }
     .button-6-img-large {
         width: 139%;
-        max-width: 139%;
-        height: 180px;
-        margin-left: -100px;
+        max-width: 131%;
+        height: 162px;
+        margin-left: -80px;
         border-radius: 5px 0 0 5px;
         margin-top: -1px;
         display: revert;
@@ -6908,7 +7353,7 @@ a {
     }
     .p-bienvenida {
         width: 1210px;
-        max-width: 140%;
+        max-width: 126%;
         height: 65px;
         font-family: Roboto;
         font-style: normal;
@@ -6919,7 +7364,7 @@ a {
         margin: 0 auto;
         margin-top: 13px;
         text-align: center;
-        margin-left: -103px;
+        margin-left: -70px;
     }
     .button-7 {
         width: 371px;
@@ -6935,7 +7380,7 @@ a {
         line-height: 19px;
         text-align: center;
         color: #DE2332;
-        margin-top: 25px;
+        margin-top: 40px;
     }
     .p-que-estas-buscando {
         width: 446px;
@@ -6952,16 +7397,39 @@ a {
         margin-bottom: 20px;
     }
     .r-home-buttons {
-        padding: 0 0px;
-        margin-left: -10px;
+        padding: 0 20px;
+        max-width: 130%;
+        width: 130%;
+        margin-left: -82px;
     }
     .super {
         border-color: transparent;
-        width: 170px;
-        height: 139px;
+        width: 150px;
+        height: 130px;
         border-radius: 10px;
         margin: 10px auto;
         padding: 22px 34px;
+    }
+    .super-button-img {
+        margin-left: -10px;
+        margin-bottom: -2px;
+        padding: 0px;
+    }
+    .servicios-button-img {
+        width: 100px;
+        margin-left: 5px;
+        margin-bottom: 4px;
+        padding: 5px 0 0 0;
+    }
+    .comida-button-img {
+        margin-top: -10px;
+        margin-bottom: -3px;
+    }
+    .mensajeria-button-img {
+        width: 80px;
+        padding: 3px;
+        margin-top: -7px;
+        margin-bottom: -5px;
     }
     .patrocinadores {
         margin: 0 auto;
@@ -6970,16 +7438,16 @@ a {
         border-color: #FFFFFF;
         border-radius: 5px;
         width: 100%;
-        height: 160px;
+        height: 150px;
     }
     .patrocinadores-text {
         margin: 50px 30px;
     }
     .patrocinadores-img-large {
-        width: 113%;
-        max-width: 113%;
-        height: 160px;
-        margin-left: -45px;
+        width: 131%;
+        max-width: 131%;
+        height: 155px;
+        margin-left: -80px;
         border-radius: 5px 0 0 5px;
         margin-top: -1px;
         display: revert;
@@ -7012,6 +7480,20 @@ a {
         margin: 0 auto;
         margin-top: -15px;
     }
+    .footer-large {
+        margin: 0 auto;
+        display: none;
+    }
+    .footer-large-large {
+        margin: 0 auto;
+        max-width: 120%;
+        width: 120%;
+        display: revert;
+        height: 50px;
+        margin-left: -50px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
     .p-footer {
         font-family: Roboto;
         font-style: normal;
@@ -7021,11 +7503,6 @@ a {
         color: #FFFFFF;
         margin-top: 15px;
         margin-lefT: -340px;
-    }
-    .text-fields {
-        float: right!important;
-        padding-left: 350px;
-        margin-top: -50px;
     }
     .form-control.busqueda {
         color: #757373;
@@ -7061,9 +7538,49 @@ a {
     .r-home-button {
         width: 25%;
     }
+    .form-registro {
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        width: 135%;
+        height: 510px;
+        margin: 0 0 0 -90px;
+        margin-top: 54px;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 736px) {}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+    /* iPhone 6/7/8 landscape */
+    .button-6-img-large {
+        width: 139%;
+        max-width: 125%;
+        height: 150px;
+        margin-left: -65px;
+        border-radius: 5px 0 0 5px;
+        margin-top: -1px;
+        display: revert;
+    }
+    .button-6 {
+        margin: 0 auto;
+        margin-top: 20px;
+        background: #FA7C0D;
+        border-color: #FFFFFF;
+        border-radius: 5px;
+        width: 1141px;
+        height: 138px;
+    }
+    .patrocinadores-img-large {
+        width: 131%;
+        max-width: 125%;
+        height: 150px;
+        margin-left: -65px;
+        border-radius: 5px 0 0 5px;
+        margin-top: -1px;
+        display: revert;
+    }
+}
 
 @media screen and (max-width: 667px) {}
 
@@ -7086,7 +7603,12 @@ a {
     }
     .footer-large {
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: -10px;
+        display: revert;
+        margin-bottom: 20px;
+    }
+    .footer-large-large {
+        display: none;
     }
     .button-6-img {
         width: 100%;
@@ -7120,6 +7642,256 @@ a {
     }
     .patrocinadores-img-large {
         display: none;
+    }
+    .footer-large {
+        margin: 0 auto;
+        margin-top: 30px;
+        display: revert;
+        margin-bottom: 20px;
+    }
+    .footer-large-large {
+        display: none;
+    }
+    .blue-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #00BAF2;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+    }
+    .title2-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .blue-text2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #00BAF2;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+    }
+    .large {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .short {
+        width: 130%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: -25px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .shorter {
+        width: 75%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 34px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .nombre-negocio {
+        width: 345px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .giro {
+        width: 345px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .telefono-form-registro {
+        width: 345px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .pagina-web-form-registro {
+        width: 345px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .button-3 {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 169px;
+        height: 42px;
+        background: #4CBD30;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 31px;
+    }
+    .button-12 {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 169px;
+        height: 42px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 31px;
+        margin-right: 0;
+        margin-left: 0;
+        float: none;
+        margin-bottom: 0;
+    }
+    .button-12-ingresar {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 169px;
+        height: 42px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 25px;
+    }
+    .button-13 {
+        margin-top: 15px;
+        width: 230px;
+        height: 40px;
+        background: #3B5998;
+        border-radius: 8px;
+        border-color: transparent;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .button-13-img {
+        margin: 4px 1px 20px -40px;
+    }
+    .form-registro {
+        background-color: transparent;
+        border-radius: 0;
+        width: 100%;
+        height: 0;
+        margin: 0 auto;
+        margin-top: -15px;
+    }
+    .background-form-registro {
+        background: #FFFFFF;
+    }
+    .half1 {
+        float: none;
+        width: 100%;
+    }
+    .half2 {
+        float: none;
+        width: 100%;
+    }
+    .nombre-negocio {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin-right: 0;
+    }
+    .giro {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin-left: 0;
+    }
+    .telefono-form-registro {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin-right: 0;
+    }
+    .pagina-web-form-registro {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin-left: 0;
     }
 }
 
@@ -7165,6 +7937,268 @@ a {
     .patrocinadores-img {
         margin-left: -5px;
         display: revert;
+    }
+    .footer-large {
+        margin: 0 auto;
+        margin-top: 10px;
+        display: revert;
+        margin-bottom: 20px;
+    }
+    .footer-large-large {
+        display: none;
+    }
+    .title2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+    }
+    .blue-text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #00BAF2;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+    }
+    .title2-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #4F4F4F;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .blue-text2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 21px;
+        line-height: 25px;
+        text-align: center;
+        color: #00BAF2;
+        text-transform: uppercase;
+        margin-top: 29px;
+        margin-bottom: 3px;
+    }
+    .large {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .short {
+        width: 130%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: -25px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .shorter {
+        width: 75%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 34px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .nombre-negocio {
+        width: 345px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .giro {
+        width: 345px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .telefono-form-registro {
+        width: 345px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .pagina-web-form-registro {
+        width: 345px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+    }
+    .button-3 {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 169px;
+        height: 42px;
+        background: #4CBD30;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 31px;
+    }
+    .button-12 {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 169px;
+        height: 42px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 31px;
+        margin-right: 0;
+        margin-left: 0;
+        float: none;
+        margin-bottom: 0;
+    }
+    .button-12-ingresar {
+        text-transform: uppercase;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 20px;
+        color: #FFFFFF;
+        width: 169px;
+        height: 42px;
+        background: #00BAF2;
+        border-radius: 8px;
+        border-color: transparent;
+        margin-top: 25px;
+    }
+    .button-13 {
+        margin-top: 15px;
+        width: 230px;
+        height: 40px;
+        background: #3B5998;
+        border-radius: 8px;
+        border-color: transparent;
+        float: none;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .button-13-img {
+        margin: 4px 1px 20px -40px;
+    }
+    .form-registro {
+        background-color: transparent;
+        border-radius: 0;
+        width: 100%;
+        height: 0;
+        margin: 0 auto;
+        margin-top: -15px;
+    }
+    .background-form-registro {
+        background: #FFFFFF;
+    }
+    .half1 {
+        float: none;
+        width: 100%;
+    }
+    .half2 {
+        float: none;
+        width: 100%;
+    }
+    .nombre-negocio {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin-right: 0;
+    }
+    .giro {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin-left: 0;
+    }
+    .telefono-form-registro {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin-right: 0;
+    }
+    .pagina-web-form-registro {
+        width: 100%;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 15px;
+        margin-top: 10px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        border-radius: 8px;
+        padding-left: 15px;
+        margin-left: 0;
     }
 }
 

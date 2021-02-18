@@ -140,8 +140,8 @@
     <div class="container">
         <div class="row">
             <div class="text-center col-12">
-                <img src="images/Footer-large (1).png" class="footer-large img-fluid d-none d-md-block">
-                <img src="images/Group 14.png" class="footer-large img-fluid d-block d-md-none">
+                <img src="images/Footer-large (1).png" class="footer-large-large img-fluid">
+                <img src="images/Group 14.png" class="footer-large img-fluid">
             </div>
         </div>
     </div>
